@@ -1,0 +1,45 @@
+{
+   "id": "patch@hypeboy@1723330335-f37a9e57-05b3-4f95-b5c4-99d27a26683c",
+   "pending": false,
+   "generate_c_blob": "hypeboy/blob-hypeboy-1723330331-5f082b80-f383-4298-b8f2-cad71b69ccd6-6f78d154-7fb5-4d2b-b454-16da0ef13075-96/generate.c",
+   "generate_wasm_blob": "hypeboy/blob-hypeboy-1723330331-925c8d41-de4b-4f33-81a6-ac1bc17fdd8f-2809389b-d1fa-479b-91fd-fe21b0534f11-0/generate.wasm",
+   "verify_c_blob": "hypeboy/blob-hypeboy-1723330331-62026bf0-1210-4dc2-bccd-8fd1c87d6341-9dad47c8-a240-488d-8251-41d6c25b21d8-3061/verify.c",
+   "verify_wasm_blob": "hypeboy/blob-hypeboy-1723330331-a3a66fdf-1c62-42f8-9446-fba48d071c3e-f1682323-4236-4df0-9040-424ee76a44b2-0/verify.wasm",
+   "generate_c_sha256": "a28eb1879c38825253909a3e6fc5c8e66f8657ad0bc5c00c1c1805b5d7e546d5",
+   "verify_c_sha256": "bbf2ce5f19ba28d42d4db4d7cf47ee300026aa984dba0522c0ddd5301eb68c46",
+   "generate_wasm_sha256": "a28eb1879c38825253909a3e6fc5c8e66f8657ad0bc5c00c1c1805b5d7e546d5",
+   "verify_wasm_sha256": "bbf2ce5f19ba28d42d4db4d7cf47ee300026aa984dba0522c0ddd5301eb68c46",
+   "queue_time": "1723330331303",
+   "compile_time": "1723330335713",
+   "compile_id": "job@comp@hypeboy@1723330331-6c8b6c24-1c12-4577-92f9-0c27c80b40bd-baabf38e-4e6a-49e5-b637-8baa887b86f1",
+   "team_id": "hypeboy",
+   "start_round": 145,
+   "end_round": 145,
+   "base_patch": false,
+   "stats": null,
+   "status": "pending",
+   "compile_result": {
+     "compile-outcome": {
+       "generate.c": "Building `generate.c`:\n\nSuccessfully compiled `generate.c`\n",
+       "verify.c": "Building `verify.c`:\n\nSuccessfully compiled `verify.c`\n"
+     },
+     "compile-status": "success",
+     "test-outcome": {
+       "generate_run": {
+         "error": null,
+         "fuel_used": 2,
+         "input_round_num": 250,
+         "output": "12015946551623546734"
+       },
+       "passed": true,
+       "status": "success",
+       "verify_run": {
+         "error": null,
+         "fuel_used": 930,
+         "input_round_num": 250,
+         "output": "1"
+       }
+     },
+     "test-status": "success"
+   }
+ }

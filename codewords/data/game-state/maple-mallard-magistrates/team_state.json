@@ -1,0 +1,335 @@
+{
+   "id": "maple-mallard-magistrates",
+   "name": "maple-mallard-magistrates",
+   "current_patch_id": "patch@maple-mallard-magistrates@1723402766-0212dfeb-91c2-4dc5-a658-884505b9be29",
+   "current_patch": {
+     "id": "patch@maple-mallard-magistrates@1723402766-0212dfeb-91c2-4dc5-a658-884505b9be29",
+     "pending": false,
+     "generate_c_blob": "maple-mallard-magistrates/blob-maple-mallard-magistrates-1723402761-a89683ab-a04b-4685-b935-dbff61f55c82-951854af-1f22-4d90-b031-258ae9614cfc-6004/generate.c",
+     "generate_wasm_blob": "maple-mallard-magistrates/blob-maple-mallard-magistrates-1723402761-01116876-4449-462c-aadd-daa223e9941e-34f97353-f349-4ae4-b8df-aaf034a0f824-0/generate.wasm",
+     "verify_c_blob": "maple-mallard-magistrates/blob-maple-mallard-magistrates-1723402761-1fd71c25-0bf6-4f1d-8ffb-6d94783bc20b-d64abb24-7339-43be-8dce-40430120f8da-6890/verify.c",
+     "verify_wasm_blob": "maple-mallard-magistrates/blob-maple-mallard-magistrates-1723402761-d8660bcd-0105-4e8b-abe2-247c1eaac021-d74432a1-cae5-4d6f-bfba-d15219d6151e-0/verify.wasm",
+     "generate_c_sha256": "54afdd2eb9e4e3b84010ad32478fba8604360acf95ed5cd68db29ef15fe0d054",
+     "verify_c_sha256": "60dbb6d40cd6ed404eb2875e16d395e4439b6a49fef1e35d36387f23063f0733",
+     "generate_wasm_sha256": "54afdd2eb9e4e3b84010ad32478fba8604360acf95ed5cd68db29ef15fe0d054",
+     "verify_wasm_sha256": "60dbb6d40cd6ed404eb2875e16d395e4439b6a49fef1e35d36387f23063f0733",
+     "queue_time": "1723402761735",
+     "compile_time": "1723402766162",
+     "compile_id": "job@comp@maple-mallard-magistrates@1723402761-76635c5f-575a-4c75-9dd8-070ec35c8cf5-0d525ac6-6bb3-430f-814e-f20d4d839e0f",
+     "team_id": "maple-mallard-magistrates",
+     "start_round": 194,
+     "end_round": null,
+     "base_patch": false,
+     "stats": null,
+     "status": "pending",
+     "compile_result": {
+       "compile-outcome": {
+         "generate.c": "Building `generate.c`:\n\nSuccessfully compiled `generate.c`\n",
+         "verify.c": "Building `verify.c`:\n\nSuccessfully compiled `verify.c`\n"
+       },
+       "compile-status": "success",
+       "test-outcome": {
+         "generate_run": {
+           "error": null,
+           "fuel_used": 9,
+           "input_round_num": 85,
+           "output": "13190661312535991027"
+         },
+         "passed": true,
+         "status": "success",
+         "verify_run": {
+           "error": null,
+           "fuel_used": 967,
+           "input_round_num": 85,
+           "output": "1"
+         }
+       },
+       "test-status": "success"
+     }
+   },
+   "deployed_patches": [
+     {
+       "Deploy_round": 0,
+       "Patch_id": "patch@maple-mallard-magistrates@1723317032-23eaec28-5393-4fbe-83c4-6998fd3e7c08"
+     },
+     {
+       "Deploy_round": 109,
+       "Patch_id": "patch@maple-mallard-magistrates@1723319674-b218b51d-c266-4401-bd72-cfc61b917eed"
+     },
+     {
+       "Deploy_round": 111,
+       "Patch_id": "patch@maple-mallard-magistrates@1723320291-fd3ab69d-4cad-49d8-befb-29ce3c5e1829"
+     },
+     {
+       "Deploy_round": 117,
+       "Patch_id": "patch@maple-mallard-magistrates@1723321842-3ae57910-9d07-4b6b-bf9e-c478780e9e1a"
+     },
+     {
+       "Deploy_round": 118,
+       "Patch_id": "patch@maple-mallard-magistrates@1723322341-df4dbdcd-9587-45dc-8f39-edb45e44422a"
+     },
+     {
+       "Deploy_round": 119,
+       "Patch_id": "patch@maple-mallard-magistrates@1723322412-51380d88-1172-4004-ba36-775504a2873a"
+     },
+     {
+       "Deploy_round": 126,
+       "Patch_id": "patch@maple-mallard-magistrates@1723324723-b154ae39-2114-4e1b-b894-6c9126b3c2ec"
+     },
+     {
+       "Deploy_round": 129,
+       "Patch_id": "patch@maple-mallard-magistrates@1723325698-923d74b7-e284-4cee-aa6f-d09a9ce9fd07"
+     },
+     {
+       "Deploy_round": 171,
+       "Patch_id": "patch@maple-mallard-magistrates@1723395798-db17bd71-83b5-4692-bf8c-3b3315304f6e"
+     },
+     {
+       "Deploy_round": 174,
+       "Patch_id": "patch@maple-mallard-magistrates@1723396644-867fd310-9e87-4d1e-9bdd-f2ec5edda68e"
+     },
+     {
+       "Deploy_round": 179,
+       "Patch_id": "patch@maple-mallard-magistrates@1723398041-71a5ebd6-0062-434d-837f-c9a00cf3fd38"
+     },
+     {
+       "Deploy_round": 183,
+       "Patch_id": "patch@maple-mallard-magistrates@1723399346-a4e9c04f-02eb-4d8e-8c21-056aa7fd7dea"
+     },
+     {
+       "Deploy_round": 186,
+       "Patch_id": "patch@maple-mallard-magistrates@1723400134-17afcabc-beb8-4476-b92b-3161ca61a240"
+     },
+     {
+       "Deploy_round": 194,
+       "Patch_id": "patch@maple-mallard-magistrates@1723402766-0212dfeb-91c2-4dc5-a658-884505b9be29"
+     }
+   ],
+   "attacks": {
+     "blue-water": {
+       "115": "atk@115@maple-mallard-magistrates@blue-water@1723321653-57ef14ef-5f79-47b2-9284-00f22b42ae7c",
+       "116": "atk@116@maple-mallard-magistrates@blue-water@1723321834-3bc2306b-7e46-43b7-9ffe-2f8f98465522",
+       "117": "atk@117@maple-mallard-magistrates@blue-water@1723322146-89e925b5-6cb9-4c70-a177-1c49fec7b65f",
+       "118": "atk@118@maple-mallard-magistrates@blue-water@1723322451-bb0a7be0-8494-4f27-98eb-9ba492c91956",
+       "119": "atk@119@maple-mallard-magistrates@blue-water@1723322760-5c83ae3c-1aea-4cc5-a0b3-a480a7691615",
+       "120": "atk@120@maple-mallard-magistrates@blue-water@1723323052-84c4730b-60b2-497f-8d44-cb41a8c0bce4",
+       "121": "atk@121@maple-mallard-magistrates@blue-water@1723323364-d683bfe8-71b3-48df-a05e-0a0fcacefb65",
+       "122": "atk@122@maple-mallard-magistrates@blue-water@1723323619-95cbfebb-9db3-4375-9343-4f26771113f7",
+       "123": "atk@123@maple-mallard-magistrates@blue-water@1723323924-f4e0792e-2159-4c08-84b4-abb63325bae3"
+     },
+     "cold-fusion": {
+       "111": "atk@111@maple-mallard-magistrates@cold-fusion@1723320500-17616580-21d1-43eb-9e40-b43e613dd24b",
+       "127": "atk@127@maple-mallard-magistrates@cold-fusion@1723325375-28720fd1-550e-4b5a-a196-a5b02f0826c8",
+       "128": "atk@128@maple-mallard-magistrates@cold-fusion@1723325551-f8a37f1a-7a46-498f-ab74-cfa2b8f4e80b"
+     },
+     "friendly-maltese-citizens": {
+       "111": "atk@111@maple-mallard-magistrates@friendly-maltese-citizens@1723320362-2c6703dd-a7ea-40a4-9d92-1e96eb702c71",
+       "112": "atk@112@maple-mallard-magistrates@friendly-maltese-citizens@1723320833-16ccd01c-5f9c-400f-a006-72af74b5112f",
+       "119": "atk@119@maple-mallard-magistrates@friendly-maltese-citizens@1723322725-590af278-284b-471d-86ee-4a43afaa7356",
+       "120": "atk@120@maple-mallard-magistrates@friendly-maltese-citizens@1723323032-c13979d9-7f0f-4de7-b062-f0624fbf62c3",
+       "121": "atk@121@maple-mallard-magistrates@friendly-maltese-citizens@1723323338-503e6779-1808-4f30-85e0-1a892eeba058",
+       "122": "atk@122@maple-mallard-magistrates@friendly-maltese-citizens@1723323750-43bfbb95-c463-49a1-af93-fae751ff96b5",
+       "123": "atk@123@maple-mallard-magistrates@friendly-maltese-citizens@1723323916-cd38516a-fc47-4b34-b862-016905a0a6d2",
+       "124": "atk@124@maple-mallard-magistrates@friendly-maltese-citizens@1723324225-13cbbc51-15e4-4e14-971d-a59427e9ed6a",
+       "125": "atk@125@maple-mallard-magistrates@friendly-maltese-citizens@1723324701-e99fd47c-75e2-41af-9451-f525e5b83c61",
+       "127": "atk@127@maple-mallard-magistrates@friendly-maltese-citizens@1723325182-5f58a380-2c0b-485d-80e0-7c17d0be0e30",
+       "128": "atk@128@maple-mallard-magistrates@friendly-maltese-citizens@1723325494-f11768cb-ed40-4adf-b4d0-ef258b002235",
+       "129": "atk@129@maple-mallard-magistrates@friendly-maltese-citizens@1723325802-6fedffc6-837a-47f9-bc94-76e53a5355a0",
+       "130": "atk@130@maple-mallard-magistrates@friendly-maltese-citizens@1723326123-b0c70573-7e29-4109-b749-6827cf3a4d2a",
+       "131": "atk@131@maple-mallard-magistrates@friendly-maltese-citizens@1723326431-1d17512c-e986-48e5-8797-f0ab186e8a03",
+       "163": "atk@163@maple-mallard-magistrates@friendly-maltese-citizens@1723336081-cdf7ee79-5d11-4a5e-923c-cfaaec406ebb",
+       "164": "atk@164@maple-mallard-magistrates@friendly-maltese-citizens@1723336274-498a384f-9ab6-4770-b9f8-3fef9d4a737d",
+       "165": "atk@165@maple-mallard-magistrates@friendly-maltese-citizens@1723336606-b5891d83-44e9-4ae1-a32e-d19e324f2557",
+       "166": "atk@166@maple-mallard-magistrates@friendly-maltese-citizens@1723336839-0d90ea29-3bb5-4106-92b1-847f9184ba33",
+       "167": "atk@167@maple-mallard-magistrates@friendly-maltese-citizens@1723337108-1c7a3d07-2e8b-46d6-908c-f045bc5e3619",
+       "168": "atk@168@maple-mallard-magistrates@friendly-maltese-citizens@1723337415-f3d39c39-7bcf-4817-b587-5a7249eeca99",
+       "169": "atk@169@maple-mallard-magistrates@friendly-maltese-citizens@1723337704-1ef4888f-592f-4e4e-8fa5-b7545d3105e0",
+       "170": "atk@170@maple-mallard-magistrates@friendly-maltese-citizens@1723395619-ec82203f-cab3-49e0-b294-b400ce7e1457",
+       "171": "atk@171@maple-mallard-magistrates@friendly-maltese-citizens@1723395930-69f8a090-8080-4696-a745-4f0e37160c9b",
+       "172": "atk@172@maple-mallard-magistrates@friendly-maltese-citizens@1723396238-480e5357-9d08-4f26-9b63-d14610e20a7f",
+       "173": "atk@173@maple-mallard-magistrates@friendly-maltese-citizens@1723396594-843ae9f0-f0bf-41b9-ae07-fcf58518add0",
+       "174": "atk@174@maple-mallard-magistrates@friendly-maltese-citizens@1723396804-e42b0649-54bf-4091-b4ab-2af12f2b3c38",
+       "175": "atk@175@maple-mallard-magistrates@friendly-maltese-citizens@1723397117-cb6ff917-8ab6-49a2-b603-10e55dc9f714",
+       "176": "atk@176@maple-mallard-magistrates@friendly-maltese-citizens@1723397425-3e9a6837-0cb1-4eeb-8056-2d2d1a09ad6d",
+       "177": "atk@177@maple-mallard-magistrates@friendly-maltese-citizens@1723397734-cf88bd02-5fbe-4a96-bcde-9f0e6611d636",
+       "178": "atk@178@maple-mallard-magistrates@friendly-maltese-citizens@1723398024-e7b3d254-a7cb-41cf-a3f2-b78b665fa4c8",
+       "179": "atk@179@maple-mallard-magistrates@friendly-maltese-citizens@1723398348-c5774034-85be-4ca3-a57f-2b95d8aee653",
+       "180": "atk@180@maple-mallard-magistrates@friendly-maltese-citizens@1723398656-ca2c12f0-c96c-4480-a064-410b8429e7bf",
+       "181": "atk@181@maple-mallard-magistrates@friendly-maltese-citizens@1723398962-64f53b71-fb93-449f-9dda-8255fdec6843",
+       "182": "atk@182@maple-mallard-magistrates@friendly-maltese-citizens@1723399228-14be0852-8c40-4ce2-9473-8973d4691994",
+       "183": "atk@183@maple-mallard-magistrates@friendly-maltese-citizens@1723399539-35924998-8efa-45ab-b3b5-07c9dc3d552e",
+       "184": "atk@184@maple-mallard-magistrates@friendly-maltese-citizens@1723399846-050d6b16-9b7e-46d1-adaa-3f6afab3876f",
+       "185": "atk@185@maple-mallard-magistrates@friendly-maltese-citizens@1723400153-4d137efb-1144-4e16-8670-7f7fd2813340",
+       "186": "atk@186@maple-mallard-magistrates@friendly-maltese-citizens@1723400406-a4427950-e093-4fe5-a344-787189594dec",
+       "187": "atk@187@maple-mallard-magistrates@friendly-maltese-citizens@1723400767-f1c7b019-e171-443e-9a8e-4d7c761694d5",
+       "188": "atk@188@maple-mallard-magistrates@friendly-maltese-citizens@1723401074-704a4092-f11d-4f95-b644-d4b8fa7bacaf",
+       "189": "atk@189@maple-mallard-magistrates@friendly-maltese-citizens@1723401370-0b7a7e7f-668d-4efe-ae8e-424978ab4428",
+       "190": "atk@190@maple-mallard-magistrates@friendly-maltese-citizens@1723401649-db5b0658-4ff6-4dbf-98ce-ee3a5aa7595d",
+       "191": "atk@191@maple-mallard-magistrates@friendly-maltese-citizens@1723401929-9a6e9fab-4934-4022-8720-686dd897123a",
+       "192": "atk@192@maple-mallard-magistrates@friendly-maltese-citizens@1723402208-fcbfaac2-1f8d-4107-8fc0-40b40147d010",
+       "193": "atk@193@maple-mallard-magistrates@friendly-maltese-citizens@1723402610-b342691e-5c66-4e7c-8ddb-7b02e94ca3cc",
+       "194": "atk@194@maple-mallard-magistrates@friendly-maltese-citizens@1723402917-2ae90a1c-eb60-4181-a989-92410f5786c5",
+       "195": "atk@195@maple-mallard-magistrates@friendly-maltese-citizens@1723403222-e19caf71-cae1-4406-9b3c-b7db44da80e7",
+       "196": "atk@196@maple-mallard-magistrates@friendly-maltese-citizens@1723403533-229a68ea-1c24-43b7-a558-cd4e74d7b84c",
+       "197": "atk@197@maple-mallard-magistrates@friendly-maltese-citizens@1723403704-6665b48b-882c-475e-9b9b-b69db1792017",
+       "198": "atk@198@maple-mallard-magistrates@friendly-maltese-citizens@1723404130-87fd07d1-96b8-4f4e-a263-0bc7827e18fd",
+       "199": "atk@199@maple-mallard-magistrates@friendly-maltese-citizens@1723404416-54e81c4a-98db-4595-a9c1-45ce075837e6",
+       "200": "atk@200@maple-mallard-magistrates@friendly-maltese-citizens@1723404697-c62551a8-cb37-47ce-990b-d6da0d3f748d",
+       "201": "atk@201@maple-mallard-magistrates@friendly-maltese-citizens@1723404980-03eddc5a-f266-4403-a838-66c879a64508",
+       "202": "atk@202@maple-mallard-magistrates@friendly-maltese-citizens@1723405260-89b78f30-b9cd-4d9e-8f7b-c2a66a12a8bd",
+       "203": "atk@203@maple-mallard-magistrates@friendly-maltese-citizens@1723405538-4fe9d645-22b3-479e-bdad-6dbed12ea5a4"
+     },
+     "hypeboy": {
+       "118": "atk@118@maple-mallard-magistrates@hypeboy@1723322423-9811aaaf-4e75-4e1b-9f3e-241eb46179a1",
+       "121": "atk@121@maple-mallard-magistrates@hypeboy@1723323498-9d254886-7b7c-493a-a3fa-1b132e7b1872",
+       "122": "atk@122@maple-mallard-magistrates@hypeboy@1723323610-168c1c57-458c-4ae7-8db1-184789b0f33a",
+       "123": "atk@123@maple-mallard-magistrates@hypeboy@1723324128-28ffa744-3f16-4be4-9216-e108606eeb3c",
+       "125": "atk@125@maple-mallard-magistrates@hypeboy@1723324652-9de810b8-96b6-4a88-b3d3-29d64703be18",
+       "126": "atk@126@maple-mallard-magistrates@hypeboy@1723324939-dc60d758-9a8b-40b9-953d-4d2c6420d37d",
+       "127": "atk@127@maple-mallard-magistrates@hypeboy@1723325219-80fd5d87-278e-4545-a7cc-c01e984b3f54"
+     },
+     "if-this-works-well-get-fewer-for-next-year": {
+       "133": "atk@133@maple-mallard-magistrates@if-this-works-well-get-fewer-for-next-year@1723326943-a59bd2e5-83cf-424a-b6a5-8f36a1b2e9eb",
+       "134": "atk@134@maple-mallard-magistrates@if-this-works-well-get-fewer-for-next-year@1723327303-3e334ac6-0869-4621-b824-c21d27abfff3"
+     },
+     "mhackeroni": {
+       "115": "atk@115@maple-mallard-magistrates@mhackeroni@1723321689-890ab4a5-6810-41ab-8c4d-12281da65ebb",
+       "116": "atk@116@maple-mallard-magistrates@mhackeroni@1723321927-bee3626e-cd23-405f-a42f-394c69ecf34b",
+       "117": "atk@117@maple-mallard-magistrates@mhackeroni@1723322266-79d66884-c38b-4644-9098-ec68ac9b779e",
+       "118": "atk@118@maple-mallard-magistrates@mhackeroni@1723322524-5010c42d-c1bf-42f5-ba36-9321e9101544",
+       "119": "atk@119@maple-mallard-magistrates@mhackeroni@1723322754-1491660e-fd2d-48e7-be56-ef8dfc86b37c",
+       "122": "atk@122@maple-mallard-magistrates@mhackeroni@1723323627-6e6a83a8-7c7d-41c2-b669-ae6c80ce433c",
+       "126": "atk@126@maple-mallard-magistrates@mhackeroni@1723324971-246159b7-2a43-4f37-8424-4ab843d9ca7c",
+       "127": "atk@127@maple-mallard-magistrates@mhackeroni@1723325138-c6d006a7-5112-429f-a9ba-ef0221dbf53b",
+       "128": "atk@128@maple-mallard-magistrates@mhackeroni@1723325448-c2626be3-d590-435f-a920-27e9d9208d36",
+       "129": "atk@129@maple-mallard-magistrates@mhackeroni@1723325759-aedebd3b-3a10-48c1-8637-0fd4ce8c072f",
+       "130": "atk@130@maple-mallard-magistrates@mhackeroni@1723326077-d88d5232-b982-436b-8761-1f69b872c411",
+       "131": "atk@131@maple-mallard-magistrates@mhackeroni@1723326386-82282632-2245-4152-bb42-7a891fe6e8fa",
+       "132": "atk@132@maple-mallard-magistrates@mhackeroni@1723326607-a8e55133-bf02-4ea5-b0cf-3cc4836f8d46",
+       "133": "atk@133@maple-mallard-magistrates@mhackeroni@1723326914-5ecddba0-797a-478c-9b7b-f61118080ceb",
+       "134": "atk@134@maple-mallard-magistrates@mhackeroni@1723327222-f483ccc4-a115-4a62-ba78-50d694f6faa5",
+       "135": "atk@135@maple-mallard-magistrates@mhackeroni@1723327532-2b42feee-5fb4-466d-a7cf-8555871b245a",
+       "136": "atk@136@maple-mallard-magistrates@mhackeroni@1723327864-58acb93a-16c0-4fc7-b29e-84259c0ab6be"
+     },
+     "never-stop-exploiting": {
+       "111": "atk@111@maple-mallard-magistrates@never-stop-exploiting@1723320564-d5978e6e-564b-4550-bb2b-0f2714d771b4",
+       "112": "atk@112@maple-mallard-magistrates@never-stop-exploiting@1723320875-fcbaf340-6980-4f4a-aee3-439e860d298d",
+       "113": "atk@113@maple-mallard-magistrates@never-stop-exploiting@1723320976-8d022fb3-cef0-40c9-a42e-0543f1c9e2cd",
+       "114": "atk@114@maple-mallard-magistrates@never-stop-exploiting@1723321283-a07d4bb1-82f4-44e9-9d4f-a033f32338d3",
+       "115": "atk@115@maple-mallard-magistrates@never-stop-exploiting@1723321514-73bd3c1e-0680-46a8-adc6-c150a319cd80",
+       "148": "atk@148@maple-mallard-magistrates@never-stop-exploiting@1723331637-1d45ffc9-e1fa-4ab7-a44c-72bbe58f2c75",
+       "149": "atk@149@maple-mallard-magistrates@never-stop-exploiting@1723331715-4ae35059-215a-40be-a0a7-b0dae439645a",
+       "150": "atk@150@maple-mallard-magistrates@never-stop-exploiting@1723332008-c579db2c-8ba5-4d90-9861-f0c9d0b80666",
+       "151": "atk@151@maple-mallard-magistrates@never-stop-exploiting@1723332354-ce74127c-6469-4c6d-a902-398254ac9d5d",
+       "152": "atk@152@maple-mallard-magistrates@never-stop-exploiting@1723332620-2b7bb1a4-6f40-4a7d-8eab-22e846c61f3f",
+       "153": "atk@153@maple-mallard-magistrates@never-stop-exploiting@1723332929-d646fb35-604c-4a66-8c81-cf0c9ceda554",
+       "154": "atk@154@maple-mallard-magistrates@never-stop-exploiting@1723333236-9c2c8f7f-7bc6-422e-b374-4b77a2095db3",
+       "155": "atk@155@maple-mallard-magistrates@never-stop-exploiting@1723333544-ad0edf0f-c008-4eff-b1f5-eea53ca17ca4",
+       "156": "atk@156@maple-mallard-magistrates@never-stop-exploiting@1723333851-2f034c1e-ad0c-45d7-8693-98c103b646ec",
+       "157": "atk@157@maple-mallard-magistrates@never-stop-exploiting@1723334158-79c68f69-3655-406f-bea7-3c40e151b029",
+       "158": "atk@158@maple-mallard-magistrates@never-stop-exploiting@1723334466-af88ef4e-1b7a-4997-bca0-93105fbbab19",
+       "159": "atk@159@maple-mallard-magistrates@never-stop-exploiting@1723334774-18959e65-f516-4f40-8e48-ae1e95575a75",
+       "160": "atk@160@maple-mallard-magistrates@never-stop-exploiting@1723335083-15b30b36-78a0-44b8-9f1d-fef095658c68",
+       "161": "atk@161@maple-mallard-magistrates@never-stop-exploiting@1723335390-27e20f3e-380c-4573-9341-c063f9d7a332",
+       "162": "atk@162@maple-mallard-magistrates@never-stop-exploiting@1723335697-0486bc63-c424-4e91-b6b3-912669aa0bdf",
+       "163": "atk@163@maple-mallard-magistrates@never-stop-exploiting@1723336005-2f3511ed-c0d6-4312-a3a7-55af5019e26e",
+       "164": "atk@164@maple-mallard-magistrates@never-stop-exploiting@1723336313-f96a236e-ea01-4912-a3b4-36573351ec65",
+       "165": "atk@165@maple-mallard-magistrates@never-stop-exploiting@1723336620-e0af0dbc-acab-4ade-bf2f-a9ce2d947886",
+       "166": "atk@166@maple-mallard-magistrates@never-stop-exploiting@1723336927-43c9f4a0-da1c-4ec3-b1ad-a7fe5651993f",
+       "167": "atk@167@maple-mallard-magistrates@never-stop-exploiting@1723337234-92b52c5c-524b-4986-bd2e-9ffe0e98efc1",
+       "168": "atk@168@maple-mallard-magistrates@never-stop-exploiting@1723337542-b879df6c-7398-4c63-9c85-c8a6920a1dd0",
+       "169": "atk@169@maple-mallard-magistrates@never-stop-exploiting@1723337849-061ca733-3646-4cbc-b019-f4c52653ed6f",
+       "170": "atk@170@maple-mallard-magistrates@never-stop-exploiting@1723395624-4afca630-5f72-4e04-bd6f-0356fcdf541a",
+       "171": "atk@171@maple-mallard-magistrates@never-stop-exploiting@1723395931-4a44df52-d829-4620-bd63-bb94e2e71b12",
+       "172": "atk@172@maple-mallard-magistrates@never-stop-exploiting@1723396485-a4117fbc-a374-41ae-9430-900d4ef758f6",
+       "173": "atk@173@maple-mallard-magistrates@never-stop-exploiting@1723396506-f38b2b85-f19c-407d-b745-5eb24d19ba88",
+       "174": "atk@174@maple-mallard-magistrates@never-stop-exploiting@1723396817-ef170bf7-bfb5-473b-8ccc-b12be234a8c6",
+       "175": "atk@175@maple-mallard-magistrates@never-stop-exploiting@1723397132-05125e4c-84ae-4548-bb9c-cd56cd1cf03f",
+       "176": "atk@176@maple-mallard-magistrates@never-stop-exploiting@1723397440-d96ce5cb-e0f4-4e54-92a8-972c0a1a8ec2",
+       "177": "atk@177@maple-mallard-magistrates@never-stop-exploiting@1723397748-3acee194-4a88-47fb-9630-2a0fec9834ef",
+       "178": "atk@178@maple-mallard-magistrates@never-stop-exploiting@1723398055-9dcc2cd3-791a-4e4a-bf69-86d44c1bf003",
+       "179": "atk@179@maple-mallard-magistrates@never-stop-exploiting@1723398363-a6e0d1ab-6d72-4fa5-b5a0-b89c007245ae",
+       "180": "atk@180@maple-mallard-magistrates@never-stop-exploiting@1723398670-2c905cd9-529f-46f4-b00b-53c1cd3b667e",
+       "181": "atk@181@maple-mallard-magistrates@never-stop-exploiting@1723398977-68d4bd65-45e3-4697-90c0-3ff085a1673c",
+       "182": "atk@182@maple-mallard-magistrates@never-stop-exploiting@1723399285-ec4988b0-c7e5-4fb1-ace7-6761684bcc82",
+       "183": "atk@183@maple-mallard-magistrates@never-stop-exploiting@1723399593-de4e1126-ddfc-4133-96a8-c97cb7891269",
+       "184": "atk@184@maple-mallard-magistrates@never-stop-exploiting@1723399900-6d3473ec-7eb2-40be-96e5-8eb831e3eb43",
+       "185": "atk@185@maple-mallard-magistrates@never-stop-exploiting@1723400207-0eec05b7-49c5-455a-9fe3-c1191f4213dd",
+       "186": "atk@186@maple-mallard-magistrates@never-stop-exploiting@1723400412-a8916895-9d6b-49b7-9e6f-fb64dbc523f9",
+       "187": "atk@187@maple-mallard-magistrates@never-stop-exploiting@1723400819-b3152093-1bd5-4a3e-9b05-b770ceca96d8",
+       "188": "atk@188@maple-mallard-magistrates@never-stop-exploiting@1723401007-e7e41665-d3dd-479a-a362-6058d6e8481b",
+       "189": "atk@189@maple-mallard-magistrates@never-stop-exploiting@1723401313-23b16fa4-bbfc-4290-9a89-f4b35c94e79a",
+       "190": "atk@190@maple-mallard-magistrates@never-stop-exploiting@1723401620-54716de3-0829-4fb3-9688-2c55bca257bd",
+       "191": "atk@191@maple-mallard-magistrates@never-stop-exploiting@1723401927-35b86ba7-b8d3-451b-a5ea-fc7cda2977c3",
+       "192": "atk@192@maple-mallard-magistrates@never-stop-exploiting@1723402214-be233263-a0fb-45d2-b7f3-eaa749061e59",
+       "193": "atk@193@maple-mallard-magistrates@never-stop-exploiting@1723402542-1303ca65-accc-4793-98e0-3dfa0c8fb244",
+       "194": "atk@194@maple-mallard-magistrates@never-stop-exploiting@1723402849-a4b16a4f-a427-47e0-821f-90ed5e3a741a",
+       "195": "atk@195@maple-mallard-magistrates@never-stop-exploiting@1723403157-c00393df-57e7-466f-84ac-e311f4fd9dcc",
+       "196": "atk@196@maple-mallard-magistrates@never-stop-exploiting@1723403464-6f2bc92d-6742-4c32-a72a-48cac426752a",
+       "197": "atk@197@maple-mallard-magistrates@never-stop-exploiting@1723403711-d318355a-fe4f-4ef0-85d7-464b05a2ea67",
+       "198": "atk@198@maple-mallard-magistrates@never-stop-exploiting@1723404079-2dcb30d0-2773-4123-8f10-e130683143e6",
+       "199": "atk@199@maple-mallard-magistrates@never-stop-exploiting@1723404386-a9ec9f0e-9062-4282-8406-2e1f112fcb0c",
+       "200": "atk@200@maple-mallard-magistrates@never-stop-exploiting@1723404693-0af79dec-b5bd-45b4-9531-15c0f2e997d6",
+       "201": "atk@201@maple-mallard-magistrates@never-stop-exploiting@1723404989-82e75fc8-c594-42ea-a654-f7dd00b78718",
+       "202": "atk@202@maple-mallard-magistrates@never-stop-exploiting@1723405267-f047cdac-55ea-49f6-9519-51d68343d9fb",
+       "203": "atk@203@maple-mallard-magistrates@never-stop-exploiting@1723405545-962e3ba9-964f-49fd-9afa-1aeafaaadff1"
+     },
+     "next-years-organizers": {
+       "111": "atk@111@maple-mallard-magistrates@next-years-organizers@1723320488-17cea5a1-9eb7-4131-960d-597e608d9c06",
+       "112": "atk@112@maple-mallard-magistrates@next-years-organizers@1723320856-ed95ad10-de6d-47ba-8fe7-4149fcb6eda2",
+       "113": "atk@113@maple-mallard-magistrates@next-years-organizers@1723320963-c80936d2-6c5a-4ce9-b15e-42108cd56db9",
+       "114": "atk@114@maple-mallard-magistrates@next-years-organizers@1723321322-0c72a84b-0788-4a7b-9b0b-e8e7c2b7af95",
+       "127": "atk@127@maple-mallard-magistrates@next-years-organizers@1723325261-3d739477-2bba-49bd-a1e8-8ceed8f8e060",
+       "132": "atk@132@maple-mallard-magistrates@next-years-organizers@1723326634-485ddbc1-73e7-4b08-9609-9c2406afabe0",
+       "134": "atk@134@maple-mallard-magistrates@next-years-organizers@1723327326-67f66ad8-d1ae-4e3f-9be2-fc454d95c764",
+       "136": "atk@136@maple-mallard-magistrates@next-years-organizers@1723327844-f0ceaa1b-a593-430e-885b-410ac5af458f",
+       "138": "atk@138@maple-mallard-magistrates@next-years-organizers@1723328435-e5980c7c-7aaa-469f-947c-c80858b80a52",
+       "139": "atk@139@maple-mallard-magistrates@next-years-organizers@1723328763-c3ed4f0a-70ae-4936-95ac-1763673508f7",
+       "140": "atk@140@maple-mallard-magistrates@next-years-organizers@1723329063-2eec8944-28cf-4e9e-92f2-de6b0cebcb6c",
+       "141": "atk@141@maple-mallard-magistrates@next-years-organizers@1723329497-41bcf85e-f2e9-484d-991c-b8750926a6b7",
+       "142": "atk@142@maple-mallard-magistrates@next-years-organizers@1723329662-04a2c91c-9700-4b4a-8d22-17f6a02df1a2",
+       "143": "atk@143@maple-mallard-magistrates@next-years-organizers@1723330106-f2b41891-ed2a-4ca6-9f55-aaed9357ab56",
+       "144": "atk@144@maple-mallard-magistrates@next-years-organizers@1723330405-f6f813be-ba2e-4f11-b324-5b87d485a171",
+       "146": "atk@146@maple-mallard-magistrates@next-years-organizers@1723330820-1fa99ab1-74d8-4e09-9a8d-8d54cc1bc7dc",
+       "147": "atk@147@maple-mallard-magistrates@next-years-organizers@1723331157-a9988a8b-9483-4370-bd0a-96b4c63d982a",
+       "149": "atk@149@maple-mallard-magistrates@next-years-organizers@1723331736-a11015e8-5b41-4903-ab89-0d6b368ca4cb",
+       "150": "atk@150@maple-mallard-magistrates@next-years-organizers@1723332083-b07ecc20-944d-402f-9198-9ba1f8e488ba",
+       "151": "atk@151@maple-mallard-magistrates@next-years-organizers@1723332454-96d48c39-c0de-425e-9f35-fad0b7a790bd",
+       "152": "atk@152@maple-mallard-magistrates@next-years-organizers@1723332677-38adcefd-bd07-45b5-ba8f-8a1397082c43",
+       "153": "atk@153@maple-mallard-magistrates@next-years-organizers@1723333191-2f253fe6-0a7e-436b-ac96-a2806f6b16bf",
+       "154": "atk@154@maple-mallard-magistrates@next-years-organizers@1723333262-f0675d8e-eef6-4171-87e0-5bdcacc65991",
+       "156": "atk@156@maple-mallard-magistrates@next-years-organizers@1723333874-3aaac62e-6821-4415-9334-50f7dc87eb48",
+       "157": "atk@157@maple-mallard-magistrates@next-years-organizers@1723334192-6d33e711-6d4d-449c-81c1-e94d7fecf808",
+       "158": "atk@158@maple-mallard-magistrates@next-years-organizers@1723334509-d77556d4-5a29-4fbe-8125-05f2202765bd",
+       "159": "atk@159@maple-mallard-magistrates@next-years-organizers@1723334846-e8440ae7-4175-4912-8b91-888360246308",
+       "160": "atk@160@maple-mallard-magistrates@next-years-organizers@1723335006-44c7cd0c-5ec8-4a5c-9b07-88585fe9fc5f",
+       "161": "atk@161@maple-mallard-magistrates@next-years-organizers@1723335325-1dec5a57-47fb-4e94-9f37-97aace57ff9a",
+       "162": "atk@162@maple-mallard-magistrates@next-years-organizers@1723335641-5bff60e8-4224-40e5-bb2a-6b6351b1e67b",
+       "163": "atk@163@maple-mallard-magistrates@next-years-organizers@1723335957-57f29ac0-0d86-40b9-a1a1-5308f71ed8c9",
+       "164": "atk@164@maple-mallard-magistrates@next-years-organizers@1723336280-c9c40dec-ed2d-4ff4-b522-0043d3de5b1b",
+       "165": "atk@165@maple-mallard-magistrates@next-years-organizers@1723336614-e6982a4f-af87-463b-8e5a-91be9723a61c",
+       "166": "atk@166@maple-mallard-magistrates@next-years-organizers@1723336943-44ac4b18-a45d-458e-b852-aedd405a07c3",
+       "167": "atk@167@maple-mallard-magistrates@next-years-organizers@1723337218-2dac9881-a00c-4f00-84ba-f010166aa40f",
+       "168": "atk@168@maple-mallard-magistrates@next-years-organizers@1723337515-490a3f22-7e70-45ab-b4c3-b37e1ad39f43",
+       "169": "atk@169@maple-mallard-magistrates@next-years-organizers@1723337712-dc508cdc-2d5d-419a-ba4a-e4a3aed40b8b",
+       "170": "atk@170@maple-mallard-magistrates@next-years-organizers@1723395690-10768289-7c76-4b85-8e23-092711c0104e"
+     },
+     "repokemonedcollections": {
+       "112": "atk@112@maple-mallard-magistrates@repokemonedcollections@1723320830-77a7f243-3e1f-4774-b896-f28fb0a6857d",
+       "113": "atk@113@maple-mallard-magistrates@repokemonedcollections@1723321188-d415957b-6d0f-475d-a725-43b65794770f",
+       "114": "atk@114@maple-mallard-magistrates@repokemonedcollections@1723321397-438e098b-2535-4442-871c-81dc8de0df52",
+       "115": "atk@115@maple-mallard-magistrates@repokemonedcollections@1723321575-8e2b5058-3b2b-42fd-9077-c2f14aec4008"
+     },
+     "straw-hat": {
+       "119": "atk@119@maple-mallard-magistrates@straw-hat@1723322875-5ebdecbb-4817-4c1e-a7f4-af066663c85b",
+       "120": "atk@120@maple-mallard-magistrates@straw-hat@1723323237-759176c4-9dd2-4630-9118-0a9746c85ed4",
+       "121": "atk@121@maple-mallard-magistrates@straw-hat@1723323566-5cf06bc0-a96b-453c-a253-d1e3481a870d",
+       "123": "atk@123@maple-mallard-magistrates@straw-hat@1723324096-993aa8a2-e79d-4e50-9f86-ef3a7ddfbb77",
+       "170": "atk@170@maple-mallard-magistrates@straw-hat@1723395609-9047fcda-fe54-485c-b4df-bf23e98cdd27"
+     },
+     "superdicecode": {
+       "111": "atk@111@maple-mallard-magistrates@superdicecode@1723320436-7f45bf19-ae48-49de-baeb-2ccbe3a01a7b"
+     }
+   },
+   "score": 202
+ }

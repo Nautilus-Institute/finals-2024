@@ -1,0 +1,45 @@
+{
+   "id": "patch@mhackeroni@1723322843-75f4c6d0-39bf-4a01-90dd-a3d611cd2cf4",
+   "pending": false,
+   "generate_c_blob": "mhackeroni/blob-mhackeroni-1723322840-0f4d13ac-e7cf-4303-b018-43950c13dbd4-cad25b48-8412-4d08-9ae1-74fb48156951-125/generate.c",
+   "generate_wasm_blob": "mhackeroni/blob-mhackeroni-1723322840-9c50cc16-ea9b-4b62-a04a-7bc5076e534e-24776036-850c-4786-907a-44b8924ed3af-0/generate.wasm",
+   "verify_c_blob": "mhackeroni/blob-mhackeroni-1723322840-d1e73d11-7387-45b5-81e7-ac359a1bdf84-58ab61c7-7923-44bc-a575-2cd0b9b59d76-185/verify.c",
+   "verify_wasm_blob": "mhackeroni/blob-mhackeroni-1723322840-473d5638-bbdf-4360-a4fb-6965f75ca8b3-f55893b4-3e75-4a30-8ca7-2de80ba72ffe-0/verify.wasm",
+   "generate_c_sha256": "3d185c7b2f7bbbc2aec48e23e2e3982fcc3240359c82a11a63c0aa70350449b5",
+   "verify_c_sha256": "adfdb3db7526b9f11048cec534ff5ab7a13026cb33982aa15dca17cabb65afb8",
+   "generate_wasm_sha256": "3d185c7b2f7bbbc2aec48e23e2e3982fcc3240359c82a11a63c0aa70350449b5",
+   "verify_wasm_sha256": "adfdb3db7526b9f11048cec534ff5ab7a13026cb33982aa15dca17cabb65afb8",
+   "queue_time": "1723322840875",
+   "compile_time": "1723322843987",
+   "compile_id": "job@comp@mhackeroni@1723322840-26234b02-54b8-4c12-b531-d41995403b44-806deaf5-d7e5-47e3-adbe-2b5b017bdfb0",
+   "team_id": "mhackeroni",
+   "start_round": 120,
+   "end_round": 122,
+   "base_patch": false,
+   "stats": null,
+   "status": "pending",
+   "compile_result": {
+     "compile-outcome": {
+       "generate.c": "Building `generate.c`:\n\nSuccessfully compiled `generate.c`\n",
+       "verify.c": "Building `verify.c`:\n\nSuccessfully compiled `verify.c`\n"
+     },
+     "compile-status": "success",
+     "test-outcome": {
+       "generate_run": {
+         "error": null,
+         "fuel_used": 5,
+         "input_round_num": 152,
+         "output": "4774452515465217712"
+       },
+       "passed": true,
+       "status": "success",
+       "verify_run": {
+         "error": null,
+         "fuel_used": 8,
+         "input_round_num": 152,
+         "output": "1"
+       }
+     },
+     "test-status": "success"
+   }
+ }

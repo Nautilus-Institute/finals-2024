@@ -1,0 +1,45 @@
+{
+   "id": "patch@repokemonedcollections@1723319850-750ffbfc-4016-4a7d-b494-322f7d6e3d8a",
+   "pending": false,
+   "generate_c_blob": "repokemonedcollections/blob-repokemonedcollections-1723319847-cbb015c7-c805-4d96-b8e2-48813b50eef3-2f362862-5ee8-4e73-b424-5fc960fc48af-125/generate.c",
+   "generate_wasm_blob": "repokemonedcollections/blob-repokemonedcollections-1723319847-bde9d16c-8f47-4506-9e0f-42344df0b3c8-6d73f1c2-b2c7-47b4-b162-ea418c4eadfe-0/generate.wasm",
+   "verify_c_blob": "repokemonedcollections/blob-repokemonedcollections-1723319847-b9d41b40-df0d-47fe-8a76-f508e38731e8-feb4b448-708f-4a0d-9597-130015972f81-185/verify.c",
+   "verify_wasm_blob": "repokemonedcollections/blob-repokemonedcollections-1723319847-50455577-2667-4db5-a53a-a336bea476b8-b35c2b17-ddd4-46bc-a835-e42aa234129b-0/verify.wasm",
+   "generate_c_sha256": "083196a98f4fba087b7575e0bd3bf3a1251ef70fb7d614ba50015edd5127940c",
+   "verify_c_sha256": "30ae832edede27704aaeefdfda677769678681c6a41609eefacd60ecd99ddea1",
+   "generate_wasm_sha256": "083196a98f4fba087b7575e0bd3bf3a1251ef70fb7d614ba50015edd5127940c",
+   "verify_wasm_sha256": "30ae832edede27704aaeefdfda677769678681c6a41609eefacd60ecd99ddea1",
+   "queue_time": "1723319847482",
+   "compile_time": "1723319850269",
+   "compile_id": "job@comp@repokemonedcollections@1723319847-b37678c6-97bc-44fa-bc71-d31992460242-c203928a-c7a7-4639-90eb-8c0d32d774c0",
+   "team_id": "repokemonedcollections",
+   "start_round": 110,
+   "end_round": 115,
+   "base_patch": false,
+   "stats": null,
+   "status": "pending",
+   "compile_result": {
+     "compile-outcome": {
+       "generate.c": "Building `generate.c`:\n\nSuccessfully compiled `generate.c`\n",
+       "verify.c": "Building `verify.c`:\n\nSuccessfully compiled `verify.c`\n"
+     },
+     "compile-status": "success",
+     "test-outcome": {
+       "generate_run": {
+         "error": null,
+         "fuel_used": 5,
+         "input_round_num": 176,
+         "output": "4846510109503145976"
+       },
+       "passed": true,
+       "status": "success",
+       "verify_run": {
+         "error": null,
+         "fuel_used": 8,
+         "input_round_num": 176,
+         "output": "1"
+       }
+     },
+     "test-status": "success"
+   }
+ }

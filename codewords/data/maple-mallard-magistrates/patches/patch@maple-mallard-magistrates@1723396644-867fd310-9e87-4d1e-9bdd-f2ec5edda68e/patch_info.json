@@ -1,0 +1,45 @@
+{
+   "id": "patch@maple-mallard-magistrates@1723396644-867fd310-9e87-4d1e-9bdd-f2ec5edda68e",
+   "pending": false,
+   "generate_c_blob": "maple-mallard-magistrates/blob-maple-mallard-magistrates-1723396640-115e72b0-a78a-40f5-939c-455118c6271a-0ceebc79-85d4-4baa-9180-8e337a40631d-6007/generate.c",
+   "generate_wasm_blob": "maple-mallard-magistrates/blob-maple-mallard-magistrates-1723396640-e049d761-21d6-4ef7-ab88-11ee1176eac4-8a58ee15-e403-48ee-adf5-875c58223cdb-0/generate.wasm",
+   "verify_c_blob": "maple-mallard-magistrates/blob-maple-mallard-magistrates-1723396640-35070074-b7ae-4311-bcbe-e4416e012889-2f03dd12-0279-4093-af3a-6c39e21b1613-6870/verify.c",
+   "verify_wasm_blob": "maple-mallard-magistrates/blob-maple-mallard-magistrates-1723396640-bb4f4dde-b370-4f35-9f64-f0979db66e1f-04385d04-7819-4aad-81fb-40b07e18c2d2-0/verify.wasm",
+   "generate_c_sha256": "67437b65f9ec157de11a0ac9e3aa5c8ef6d6628bc22d318eb9f4b5ec73bbf2c6",
+   "verify_c_sha256": "b28b5a4d9afde26e4bdac7c10168bdfb2bac52967bbc83b99b1a83c3383af642",
+   "generate_wasm_sha256": "67437b65f9ec157de11a0ac9e3aa5c8ef6d6628bc22d318eb9f4b5ec73bbf2c6",
+   "verify_wasm_sha256": "b28b5a4d9afde26e4bdac7c10168bdfb2bac52967bbc83b99b1a83c3383af642",
+   "queue_time": "1723396640593",
+   "compile_time": "1723396644902",
+   "compile_id": "job@comp@maple-mallard-magistrates@1723396640-6317ab91-da9e-43da-96aa-8b99f1aa2eb4-3ee60852-517c-4840-a68b-9ebf0082bb8d",
+   "team_id": "maple-mallard-magistrates",
+   "start_round": 174,
+   "end_round": 178,
+   "base_patch": false,
+   "stats": null,
+   "status": "pending",
+   "compile_result": {
+     "compile-outcome": {
+       "generate.c": "Building `generate.c`:\n\nSuccessfully compiled `generate.c`\n",
+       "verify.c": "Building `verify.c`:\n\nSuccessfully compiled `verify.c`\n"
+     },
+     "compile-status": "success",
+     "test-outcome": {
+       "generate_run": {
+         "error": null,
+         "fuel_used": 9,
+         "input_round_num": 205,
+         "output": "16310348888777880917"
+       },
+       "passed": true,
+       "status": "success",
+       "verify_run": {
+         "error": null,
+         "fuel_used": 981,
+         "input_round_num": 205,
+         "output": "1"
+       }
+     },
+     "test-status": "success"
+   }
+ }

@@ -1,0 +1,45 @@
+{
+   "id": "patch@hypeboy@1723405954-bcfffdb3-b91e-41cc-970c-27bf80899bbe",
+   "pending": false,
+   "generate_c_blob": "hypeboy/blob-hypeboy-1723405950-a3a3d415-c566-46bd-995c-e98dc0f9e4a3-ac6732a4-6e12-434b-9c8b-3e8800a40323-95/generate.c",
+   "generate_wasm_blob": "hypeboy/blob-hypeboy-1723405950-5831c8c7-7513-472b-a8b9-bc50a40f9b93-11df04d2-99e4-4eb7-8dc7-520d8ddebfe1-0/generate.wasm",
+   "verify_c_blob": "hypeboy/blob-hypeboy-1723405950-00bdc691-de42-40e2-a211-7780f181fb3a-20317f3b-a033-427e-8b17-9f8d7621f6ad-3138/verify.c",
+   "verify_wasm_blob": "hypeboy/blob-hypeboy-1723405950-02bd5abc-ebc2-48cc-98d7-ea95469bbf37-dd6f71be-04d3-4f8e-a449-44d7338b0069-0/verify.wasm",
+   "generate_c_sha256": "5fecf7f64cad734c99ca759d33878ac95db2f9a6eb009a021e0380ecd9c90c79",
+   "verify_c_sha256": "cc1780de4dc9bb422c720e1c024e9f445f93722ea309ecc69f3c8c67a1b52ccf",
+   "generate_wasm_sha256": "5fecf7f64cad734c99ca759d33878ac95db2f9a6eb009a021e0380ecd9c90c79",
+   "verify_wasm_sha256": "cc1780de4dc9bb422c720e1c024e9f445f93722ea309ecc69f3c8c67a1b52ccf",
+   "queue_time": "1723405950601",
+   "compile_time": "1723405954937",
+   "compile_id": "job@comp@hypeboy@1723405950-684a23f2-e6ef-4cfd-b39a-540b3e70f1d4-36b95225-7f88-49e0-82ac-67b943cddde4",
+   "team_id": "hypeboy",
+   "start_round": 237,
+   "end_round": null,
+   "base_patch": false,
+   "stats": null,
+   "status": "pending",
+   "compile_result": {
+     "compile-outcome": {
+       "generate.c": "Building `generate.c`:\n\nSuccessfully compiled `generate.c`\n",
+       "verify.c": "Building `verify.c`:\n/blob/source/verify/verify.c:98:33: warning: integer literal is too large to be represented in a signed integer type, interpreting as unsigned [-Wimplicitly-unsigned-literal]\n    ((uint32_t*)k)[2] = token - 11085696216663291145;\n                                ^\n/blob/source/verify/verify.c:99:33: warning: integer literal is too large to be represented in a signed integer type, interpreting as unsigned [-Wimplicitly-unsigned-literal]\n    ((uint32_t*)k)[3] = token \u0026 11573875602620594039;\n                                ^\n2 warnings generated.\n\nSuccessfully compiled `verify.c`\n"
+     },
+     "compile-status": "success",
+     "test-outcome": {
+       "generate_run": {
+         "error": null,
+         "fuel_used": 2,
+         "input_round_num": 228,
+         "output": "6195355026153361033"
+       },
+       "passed": true,
+       "status": "success",
+       "verify_run": {
+         "error": null,
+         "fuel_used": 903,
+         "input_round_num": 228,
+         "output": "1"
+       }
+     },
+     "test-status": "success"
+   }
+ }

@@ -1,0 +1,45 @@
+{
+   "id": "patch@superdicecode@1723320944-b5b5b06c-9dca-4dbe-b2cd-866dab8996fb",
+   "pending": false,
+   "generate_c_blob": "superdicecode/blob-superdicecode-1723320941-a59127d2-f5fd-445e-b074-cd5f86d5cad0-e3aef09b-81f3-4363-9883-977425a2694c-84/generate.c",
+   "generate_wasm_blob": "superdicecode/blob-superdicecode-1723320941-e2fa73f5-bf22-44b3-a1fa-cd209a2a6f27-a6a49a21-9da6-477a-98cc-309cce26414e-0/generate.wasm",
+   "verify_c_blob": "superdicecode/blob-superdicecode-1723320941-a6c6aaec-cfcc-4305-bdc6-2cd3e422a930-b43c147b-4487-4a24-bb79-db03bc2f1f65-507/verify.c",
+   "verify_wasm_blob": "superdicecode/blob-superdicecode-1723320941-2dfb06bd-f487-4711-ab1e-de2fe606d5cf-ab28f8a6-f13c-46de-b8f2-13ea920fbb7a-0/verify.wasm",
+   "generate_c_sha256": "65646c573a3aeb0d993db8c4ff8d3505f9d213a479d5580c149a077390e12bb6",
+   "verify_c_sha256": "606e70c166e0278f56ab6331cff464f512303c234a156b872e1349b5c4f86728",
+   "generate_wasm_sha256": "65646c573a3aeb0d993db8c4ff8d3505f9d213a479d5580c149a077390e12bb6",
+   "verify_wasm_sha256": "606e70c166e0278f56ab6331cff464f512303c234a156b872e1349b5c4f86728",
+   "queue_time": "1723320941993",
+   "compile_time": "1723320944204",
+   "compile_id": "job@comp@superdicecode@1723320941-3206be77-601a-495c-9999-1479559d6428-93e71e17-bb9b-4849-b77a-727eeaa509e3",
+   "team_id": "superdicecode",
+   "start_round": 114,
+   "end_round": 117,
+   "base_patch": false,
+   "stats": null,
+   "status": "pending",
+   "compile_result": {
+     "compile-outcome": {
+       "generate.c": "Building `generate.c`:\n\nSuccessfully compiled `generate.c`\n",
+       "verify.c": "Building `verify.c`:\n/blob/source/verify/verify.c:25:17: warning: integer literal is too large to be represented in a signed integer type, interpreting as unsigned [-Wimplicitly-unsigned-literal]\n    return c == 13715751671983206877;\n                ^\n1 warning generated.\n\nSuccessfully compiled `verify.c`\n"
+     },
+     "compile-status": "success",
+     "test-outcome": {
+       "generate_run": {
+         "error": null,
+         "fuel_used": 2,
+         "input_round_num": 113,
+         "output": "3519992259"
+       },
+       "passed": true,
+       "status": "success",
+       "verify_run": {
+         "error": null,
+         "fuel_used": 753,
+         "input_round_num": 113,
+         "output": "1"
+       }
+     },
+     "test-status": "success"
+   }
+ }

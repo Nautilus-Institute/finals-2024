@@ -1,0 +1,13 @@
+vmain expects a processed lua file. see build.sh and process.sh in src/lua for generating this.
+
+the lua is 5.3.5 with 32bit mode enabled. note that certain lua features are, regardless, not supported.
+
+bugs may exist.
+
+not implemented
+- "for x in" construct
+- string concat operator ".."
+- static table initialization
+- metamethods
+- floating point
+- multiplication or division (there is << and >>, etc)

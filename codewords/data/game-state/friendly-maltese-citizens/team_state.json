@@ -1,0 +1,150 @@
+{
+   "id": "friendly-maltese-citizens",
+   "name": "friendly-maltese-citizens",
+   "current_patch_id": "patch@friendly-maltese-citizens@1723395779-282ea9fc-ae80-4aa1-a466-80f5fadc006b",
+   "current_patch": {
+     "id": "patch@friendly-maltese-citizens@1723395779-282ea9fc-ae80-4aa1-a466-80f5fadc006b",
+     "pending": false,
+     "generate_c_blob": "friendly-maltese-citizens/blob-friendly-maltese-citizens-1723395775-ca7de9a8-5045-4947-bf5e-eb658b1dd85d-7d13ef40-08b2-4321-91b2-a19819161efe-897/generate.c",
+     "generate_wasm_blob": "friendly-maltese-citizens/blob-friendly-maltese-citizens-1723395775-bb39111a-8386-4b8b-a77f-ab9f0a24d697-f3d436db-b0a4-4bfe-b79f-9cb53aae0a0d-0/generate.wasm",
+     "verify_c_blob": "friendly-maltese-citizens/blob-friendly-maltese-citizens-1723395775-228bc054-4bd0-4f12-9b36-ba08928cb51a-12b811fc-9f3c-4e7e-be10-02ee0adb99d5-961/verify.c",
+     "verify_wasm_blob": "friendly-maltese-citizens/blob-friendly-maltese-citizens-1723395775-83931e26-ad3f-41af-a014-09669c6cc276-8150c62b-a58c-406c-9205-12983e16ae11-0/verify.wasm",
+     "generate_c_sha256": "a9d55a66832840c89565b9af54c43684e2ab039af705c711f39462c636e7145a",
+     "verify_c_sha256": "5eb7073e6c32459ae8cc9648dfa29058c8a554d880e726fbeda70f1ff6673393",
+     "generate_wasm_sha256": "a9d55a66832840c89565b9af54c43684e2ab039af705c711f39462c636e7145a",
+     "verify_wasm_sha256": "5eb7073e6c32459ae8cc9648dfa29058c8a554d880e726fbeda70f1ff6673393",
+     "queue_time": "1723395775410",
+     "compile_time": "1723395779427",
+     "compile_id": "job@comp@friendly-maltese-citizens@1723395775-fb1a234b-90d7-41e1-9b04-34d63880b626-e1826157-99f8-4607-9be1-52a16b83f653",
+     "team_id": "friendly-maltese-citizens",
+     "start_round": 171,
+     "end_round": null,
+     "base_patch": false,
+     "stats": null,
+     "status": "pending",
+     "compile_result": {
+       "compile-outcome": {
+         "generate.c": "Building `generate.c`:\n\nSuccessfully compiled `generate.c`\n",
+         "verify.c": "Building `verify.c`:\n\nSuccessfully compiled `verify.c`\n"
+       },
+       "compile-status": "success",
+       "test-outcome": {
+         "generate_run": {
+           "error": null,
+           "fuel_used": 2,
+           "input_round_num": 133,
+           "output": "12529665227699709332"
+         },
+         "passed": true,
+         "status": "success",
+         "verify_run": {
+           "error": null,
+           "fuel_used": 177,
+           "input_round_num": 133,
+           "output": "1"
+         }
+       },
+       "test-status": "success"
+     }
+   },
+   "deployed_patches": [
+     {
+       "Deploy_round": 0,
+       "Patch_id": "patch@friendly-maltese-citizens@1723317032-4c4603c6-a66b-40a0-8f0b-527696b8f34e"
+     },
+     {
+       "Deploy_round": 113,
+       "Patch_id": "patch@friendly-maltese-citizens@1723320794-ac85ec67-3688-4483-94c2-86863c1d9896"
+     },
+     {
+       "Deploy_round": 114,
+       "Patch_id": "patch@friendly-maltese-citizens@1723320912-9c8ca3ef-a099-41b2-8baf-2c21d8f446ba"
+     },
+     {
+       "Deploy_round": 115,
+       "Patch_id": "patch@friendly-maltese-citizens@1723321311-f42c6eed-19da-4a7f-9637-1de8eb60bd4b"
+     },
+     {
+       "Deploy_round": 117,
+       "Patch_id": "patch@friendly-maltese-citizens@1723322085-c35f1f9a-fe46-409e-a7bc-d5a3e91e795a"
+     },
+     {
+       "Deploy_round": 118,
+       "Patch_id": "patch@friendly-maltese-citizens@1723322311-4cf41e52-85c6-46c5-bfc5-e4df3d82b85e"
+     },
+     {
+       "Deploy_round": 119,
+       "Patch_id": "patch@friendly-maltese-citizens@1723322409-9977558b-d1f4-45cc-8045-3f2058b441ae"
+     },
+     {
+       "Deploy_round": 120,
+       "Patch_id": "patch@friendly-maltese-citizens@1723322961-3a897e2a-91fa-400e-9f9d-91c2395aa4dc"
+     },
+     {
+       "Deploy_round": 122,
+       "Patch_id": "patch@friendly-maltese-citizens@1723323524-03734d6a-9582-4e28-a246-7351fe96cd62"
+     },
+     {
+       "Deploy_round": 132,
+       "Patch_id": "patch@friendly-maltese-citizens@1723326494-bd77ac23-c72d-4ddc-a5b0-64eb550429b0"
+     },
+     {
+       "Deploy_round": 139,
+       "Patch_id": "patch@friendly-maltese-citizens@1723328477-627ec479-14fe-480b-a5fd-f26657fdc7d9"
+     },
+     {
+       "Deploy_round": 140,
+       "Patch_id": "patch@friendly-maltese-citizens@1723328708-8fbc409d-6f0b-49fc-9677-aed15ee608ee"
+     },
+     {
+       "Deploy_round": 152,
+       "Patch_id": "patch@friendly-maltese-citizens@1723332477-5b7daa53-baa0-4983-9974-e12b079492de"
+     },
+     {
+       "Deploy_round": 171,
+       "Patch_id": "patch@friendly-maltese-citizens@1723395779-282ea9fc-ae80-4aa1-a466-80f5fadc006b"
+     }
+   ],
+   "attacks": {
+     "maple-mallard-magistrates": {
+       "126": "atk@126@friendly-maltese-citizens@maple-mallard-magistrates@1723325008-f452cbad-943d-4734-80d7-bf573c2df70a",
+       "127": "atk@127@friendly-maltese-citizens@maple-mallard-magistrates@1723325144-d26eda4c-63f2-4daa-8c6f-b0fd762f8711",
+       "128": "atk@128@friendly-maltese-citizens@maple-mallard-magistrates@1723325434-6e0ae183-5e17-4a9e-8e84-474ab29d60bc"
+     },
+     "never-stop-exploiting": {
+       "132": "atk@132@friendly-maltese-citizens@never-stop-exploiting@1723326737-516fb7ea-c77e-466d-bc39-1027388ebd75"
+     },
+     "next-years-organizers": {
+       "134": "atk@134@friendly-maltese-citizens@next-years-organizers@1723327261-896a661e-97a1-4397-b97e-20b4da2c5595",
+       "137": "atk@137@friendly-maltese-citizens@next-years-organizers@1723328206-09810f50-89b2-4722-b05f-ea54583a701a",
+       "140": "atk@140@friendly-maltese-citizens@next-years-organizers@1723329253-d9214b40-6d7c-4c93-bd67-05038a47e440",
+       "141": "atk@141@friendly-maltese-citizens@next-years-organizers@1723329331-078c6dbd-6bd2-45c9-8365-57d2460ebbce",
+       "142": "atk@142@friendly-maltese-citizens@next-years-organizers@1723329715-5540b1f5-ae42-4c67-bb0a-47cfa66ab007",
+       "143": "atk@143@friendly-maltese-citizens@next-years-organizers@1723330000-1621caa1-3988-4ce9-9595-2f015fce90aa",
+       "144": "atk@144@friendly-maltese-citizens@next-years-organizers@1723330307-f5399393-e37e-44a6-9d4d-6df1b01955b2",
+       "146": "atk@146@friendly-maltese-citizens@next-years-organizers@1723330838-2bca3e92-7a9c-4bc7-b558-f0653f97e123",
+       "147": "atk@147@friendly-maltese-citizens@next-years-organizers@1723331230-b59e2799-918c-4528-b24b-1061771d39a0",
+       "149": "atk@149@friendly-maltese-citizens@next-years-organizers@1723331787-5faa598f-f3d8-4c4c-96b7-d327ea6ff2b8",
+       "152": "atk@152@friendly-maltese-citizens@next-years-organizers@1723332776-67f96462-a282-4e15-ad02-26edf784d0f8",
+       "153": "atk@153@friendly-maltese-citizens@next-years-organizers@1723332916-fbc2f648-4d43-4550-a48d-9572f3bdf405",
+       "154": "atk@154@friendly-maltese-citizens@next-years-organizers@1723333271-d6a4d926-a136-4f4d-b631-801ce92f36d3",
+       "155": "atk@155@friendly-maltese-citizens@next-years-organizers@1723333639-4ae2e8ba-f6ea-435b-84a7-575375b60725",
+       "156": "atk@156@friendly-maltese-citizens@next-years-organizers@1723333929-b0e8bce3-08c4-4ebd-b45d-cf12bef47927",
+       "157": "atk@157@friendly-maltese-citizens@next-years-organizers@1723334144-a4f32280-51ec-4efc-90de-4de506a8310d",
+       "158": "atk@158@friendly-maltese-citizens@next-years-organizers@1723334416-534cd7cd-a095-4db2-9b85-bade342861b4",
+       "159": "atk@159@friendly-maltese-citizens@next-years-organizers@1723334802-609bbefc-9c97-4fa8-9e57-5ee55a27b82f",
+       "160": "atk@160@friendly-maltese-citizens@next-years-organizers@1723335055-77b039ff-e817-4206-9902-9248ff498060",
+       "161": "atk@161@friendly-maltese-citizens@next-years-organizers@1723335329-9702a3a2-e21f-4e3b-a71f-3154ef505af0",
+       "162": "atk@162@friendly-maltese-citizens@next-years-organizers@1723335646-a55838a4-6ea8-4116-9c55-6a57b7cad3cb",
+       "163": "atk@163@friendly-maltese-citizens@next-years-organizers@1723335926-1cdba87e-08ab-4cec-bb26-40abf983d47b",
+       "164": "atk@164@friendly-maltese-citizens@next-years-organizers@1723336221-116c055c-3714-4f82-bd91-33a1c6869d36",
+       "165": "atk@165@friendly-maltese-citizens@next-years-organizers@1723336552-18b0d087-be81-4b19-8019-682894f37132",
+       "166": "atk@166@friendly-maltese-citizens@next-years-organizers@1723336833-69216017-7b64-4e92-8db2-37905fbc52b5",
+       "167": "atk@167@friendly-maltese-citizens@next-years-organizers@1723337109-4d43c955-6f83-4f13-95f7-3338b10a483c",
+       "168": "atk@168@friendly-maltese-citizens@next-years-organizers@1723337431-c4960f85-db9e-4a1a-a662-a4fd5153dfe2",
+       "169": "atk@169@friendly-maltese-citizens@next-years-organizers@1723337743-8bce1b8f-5817-470c-b3f3-d19cbe12434b",
+       "170": "atk@170@friendly-maltese-citizens@next-years-organizers@1723395665-75f8145a-3866-42d7-8c50-fa4524fa61ee"
+     }
+   },
+   "score": 33
+ }

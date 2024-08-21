@@ -1,0 +1,22 @@
+{
+   "id": "patch@blue-water@1723317032-e1dc280f-f1f4-47d6-8d88-a973130e1326",
+   "pending": false,
+   "generate_c_blob": "blue-water/blob-blue-water-1723317032-fa9308eb-d23f-4da1-af4d-947a8722e093-14c7db2b-2343-4918-a875-730fded4b636-125/generate.c",
+   "generate_wasm_blob": "blue-water/blob-blue-water-1723317032-40d5494b-6c91-4742-87ae-1622c4601bd9-a537f534-3972-4ed5-9dfc-66a8b42e1514-503/generate.wasm",
+   "verify_c_blob": "blue-water/blob-blue-water-1723317032-238dc4c1-735d-4b91-95db-3b93c49f7fe7-d53ab3ed-0bee-462d-923d-ad89b3aa45b5-185/verify.c",
+   "verify_wasm_blob": "blue-water/blob-blue-water-1723317032-3f1890d5-378a-4f2c-8e01-4248bf8725cc-e14ffa3b-0688-4339-b909-2fb32ab763db-504/verify.wasm",
+   "generate_c_sha256": "9f9e2053095f0b43fde64447263cfa35eb6044aaf93f9483e08bac0349d1aa2b",
+   "verify_c_sha256": "5de05128ebdc3cc4a34b124bc8590b133e0ce98e90df76fd0e1c32209799afb5",
+   "generate_wasm_sha256": "7dc9c4f1a38daf1228fc2261caffb15f777f398346fc34e524c48d25bb82fcb4",
+   "verify_wasm_sha256": "074905f28df2442020ba1deeef95806deb6c55b578dbabe8150a99afb5970825",
+   "queue_time": "",
+   "compile_time": "",
+   "compile_id": "",
+   "team_id": "blue-water",
+   "start_round": 0,
+   "end_round": 110,
+   "base_patch": true,
+   "stats": null,
+   "status": "Deployed",
+   "compile_result": null
+ }

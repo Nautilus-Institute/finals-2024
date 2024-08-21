@@ -1,0 +1,279 @@
+{
+   "id": "cold-fusion",
+   "name": "cold-fusion",
+   "current_patch_id": "patch@cold-fusion@1723406152-c2f52540-7e6e-4268-81d6-78758721a5a8",
+   "current_patch": {
+     "id": "patch@cold-fusion@1723406152-c2f52540-7e6e-4268-81d6-78758721a5a8",
+     "pending": false,
+     "generate_c_blob": "cold-fusion/blob-cold-fusion-1723406147-ba43fbce-6702-4529-b8b4-3a79ab18d6e2-99662f7b-6e72-4c06-b099-8ef629e56509-95/generate.c",
+     "generate_wasm_blob": "cold-fusion/blob-cold-fusion-1723406147-05fe2824-5fd4-462e-8bae-143ea146ef1c-b8f33867-541b-4675-9b8e-8cfc90886b7f-0/generate.wasm",
+     "verify_c_blob": "cold-fusion/blob-cold-fusion-1723406147-2d65cd9d-9187-41b8-9dee-77937f6a5b11-34c0ecfd-6991-4000-a7f3-ac6f7289404c-9035/verify.c",
+     "verify_wasm_blob": "cold-fusion/blob-cold-fusion-1723406147-baa799f6-5b9e-46f7-adb7-4dab5bdcbb9a-c5671675-3d74-41c2-be66-d71c249973be-0/verify.wasm",
+     "generate_c_sha256": "43ef3e05d9b307538ce48e3a2fdaf80d8ab6676ca9b47f287df9176f74668f55",
+     "verify_c_sha256": "acea0c7b1639249458052ed36e3b81a9a61fb22f1d7ad7b41e69f308dbf1adc9",
+     "generate_wasm_sha256": "43ef3e05d9b307538ce48e3a2fdaf80d8ab6676ca9b47f287df9176f74668f55",
+     "verify_wasm_sha256": "acea0c7b1639249458052ed36e3b81a9a61fb22f1d7ad7b41e69f308dbf1adc9",
+     "queue_time": "1723406147513",
+     "compile_time": "1723406152057",
+     "compile_id": "job@comp@cold-fusion@1723406147-e2ee6553-669c-46fa-9a84-ef6ab63036f2-e9ed86e4-29da-4801-9089-f22412e4f212",
+     "team_id": "cold-fusion",
+     "start_round": 238,
+     "end_round": null,
+     "base_patch": false,
+     "stats": null,
+     "status": "pending",
+     "compile_result": {
+       "compile-outcome": {
+         "generate.c": "Building `generate.c`:\n\nSuccessfully compiled `generate.c`\n",
+         "verify.c": "Building `verify.c`:\n\nSuccessfully compiled `verify.c`\n"
+       },
+       "compile-status": "success",
+       "test-outcome": {
+         "generate_run": {
+           "error": null,
+           "fuel_used": 2,
+           "input_round_num": 65,
+           "output": "8069619328322793893"
+         },
+         "passed": true,
+         "status": "success",
+         "verify_run": {
+           "error": null,
+           "fuel_used": 519,
+           "input_round_num": 65,
+           "output": "1"
+         }
+       },
+       "test-status": "success"
+     }
+   },
+   "deployed_patches": [
+     {
+       "Deploy_round": 0,
+       "Patch_id": "patch@cold-fusion@1723317032-21554295-5e94-4fbe-8dee-5703d8122801"
+     },
+     {
+       "Deploy_round": 112,
+       "Patch_id": "patch@cold-fusion@1723320577-59968549-4d34-44fd-91ab-bbb0b6267892"
+     },
+     {
+       "Deploy_round": 114,
+       "Patch_id": "patch@cold-fusion@1723321099-72d033df-9898-4d43-8ecd-17729e89ec64"
+     },
+     {
+       "Deploy_round": 116,
+       "Patch_id": "patch@cold-fusion@1723321607-491ef6cf-9a82-4e43-bb3b-e8eddfd461dc"
+     },
+     {
+       "Deploy_round": 117,
+       "Patch_id": "patch@cold-fusion@1723321925-ae8a0403-b6a4-4b2d-b16b-94459dac8d9f"
+     },
+     {
+       "Deploy_round": 122,
+       "Patch_id": "patch@cold-fusion@1723323453-c97971b8-6a02-4cd4-8521-ae2ddb7e6e99"
+     },
+     {
+       "Deploy_round": 124,
+       "Patch_id": "patch@cold-fusion@1723324017-461bf4bd-8523-4b81-93ed-d49cb6ba42af"
+     },
+     {
+       "Deploy_round": 125,
+       "Patch_id": "patch@cold-fusion@1723324285-3d938ea7-8a2a-4592-9c0c-c958e1f7ae76"
+     },
+     {
+       "Deploy_round": 127,
+       "Patch_id": "patch@cold-fusion@1723325085-2d099e91-6a38-4be9-9bcb-c534a2be2b79"
+     },
+     {
+       "Deploy_round": 128,
+       "Patch_id": "patch@cold-fusion@1723325378-d8790457-ecce-4c81-bccc-0ef98e5be30b"
+     },
+     {
+       "Deploy_round": 130,
+       "Patch_id": "patch@cold-fusion@1723325824-5f248ca9-9b87-4763-912d-88895d6b3a44"
+     },
+     {
+       "Deploy_round": 139,
+       "Patch_id": "patch@cold-fusion@1723328429-ed7a5441-973b-446e-aa3e-57f63065484f"
+     },
+     {
+       "Deploy_round": 156,
+       "Patch_id": "patch@cold-fusion@1723333542-ffdbc98a-53a6-4ee1-8a24-c27e82ce037a"
+     },
+     {
+       "Deploy_round": 162,
+       "Patch_id": "patch@cold-fusion@1723335514-e2cefff3-b090-48d9-a5ad-4352e8915979"
+     },
+     {
+       "Deploy_round": 163,
+       "Patch_id": "patch@cold-fusion@1723335863-39d84fec-aaff-419a-999c-e1c3f038ac1f"
+     },
+     {
+       "Deploy_round": 166,
+       "Patch_id": "patch@cold-fusion@1723336599-2ceba9a4-5e15-4d5f-bb4b-a8d777134953"
+     },
+     {
+       "Deploy_round": 167,
+       "Patch_id": "patch@cold-fusion@1723336913-13c1f15d-5760-4ad7-8f07-2caeb0195f21"
+     },
+     {
+       "Deploy_round": 169,
+       "Patch_id": "patch@cold-fusion@1723337581-fbc6a8e3-98c1-4871-9b79-ea149720ef46"
+     },
+     {
+       "Deploy_round": 170,
+       "Patch_id": "patch@cold-fusion@1723337882-e9a57537-7498-40e2-867f-93262eb51205"
+     },
+     {
+       "Deploy_round": 183,
+       "Patch_id": "patch@cold-fusion@1723399372-b0cbe421-845b-4e9a-bd41-bb14f211011f"
+     },
+     {
+       "Deploy_round": 184,
+       "Patch_id": "patch@cold-fusion@1723399671-9e735d18-271a-403e-a94d-30988aa9c62d"
+     },
+     {
+       "Deploy_round": 185,
+       "Patch_id": "patch@cold-fusion@1723399972-0d5ceacb-e876-43a7-b54b-312d83872481"
+     },
+     {
+       "Deploy_round": 186,
+       "Patch_id": "patch@cold-fusion@1723400272-b0e3bd76-bef5-4bed-b8bd-02e334153dc6"
+     },
+     {
+       "Deploy_round": 187,
+       "Patch_id": "patch@cold-fusion@1723400571-3f89001c-b356-47d3-b9e5-68fdce59ffc3"
+     },
+     {
+       "Deploy_round": 188,
+       "Patch_id": "patch@cold-fusion@1723400872-1583eff0-e5bc-49bf-bcac-e45ef7c152da"
+     },
+     {
+       "Deploy_round": 189,
+       "Patch_id": "patch@cold-fusion@1723401172-10c9ae2d-4e26-4f5b-aa95-b3431a9ad429"
+     },
+     {
+       "Deploy_round": 190,
+       "Patch_id": "patch@cold-fusion@1723401472-ef0e5342-6840-46e9-a191-336c976e05cc"
+     },
+     {
+       "Deploy_round": 191,
+       "Patch_id": "patch@cold-fusion@1723401772-ffb66caf-3ede-45fb-95d4-7b0f3d2938bc"
+     },
+     {
+       "Deploy_round": 192,
+       "Patch_id": "patch@cold-fusion@1723402072-5e61d428-fbf5-4abf-b532-21978693244e"
+     },
+     {
+       "Deploy_round": 193,
+       "Patch_id": "patch@cold-fusion@1723402371-a9087f22-f771-43b7-b141-cf8f808e4ad2"
+     },
+     {
+       "Deploy_round": 194,
+       "Patch_id": "patch@cold-fusion@1723402672-1d11fdff-ce3b-4661-bdf3-edcae70344b6"
+     },
+     {
+       "Deploy_round": 197,
+       "Patch_id": "patch@cold-fusion@1723403452-6fb2335a-0e53-4137-b2fc-286f733284ea"
+     },
+     {
+       "Deploy_round": 198,
+       "Patch_id": "patch@cold-fusion@1723403751-c18e4897-80f6-4072-b584-d86a8caf19e1"
+     },
+     {
+       "Deploy_round": 199,
+       "Patch_id": "patch@cold-fusion@1723404052-53cb0fb3-47b5-467b-9f6c-116e86c3f69c"
+     },
+     {
+       "Deploy_round": 200,
+       "Patch_id": "patch@cold-fusion@1723404351-e368212c-ad3d-4205-b597-83e6844641b1"
+     },
+     {
+       "Deploy_round": 201,
+       "Patch_id": "patch@cold-fusion@1723404652-e31ec5d5-6b92-4dff-a9be-d10d2a73f10b"
+     },
+     {
+       "Deploy_round": 202,
+       "Patch_id": "patch@cold-fusion@1723404952-fb267920-4570-4385-bde5-d320651f3572"
+     },
+     {
+       "Deploy_round": 203,
+       "Patch_id": "patch@cold-fusion@1723405251-935cd150-1bfc-4030-9aa7-fd0cd687f50d"
+     },
+     {
+       "Deploy_round": 204,
+       "Patch_id": "patch@cold-fusion@1723405551-e49cce10-2fb8-4895-9a0a-994281308f0d"
+     },
+     {
+       "Deploy_round": 237,
+       "Patch_id": "patch@cold-fusion@1723405851-d18af771-8723-4f84-9dd1-c7c6d73d4259"
+     },
+     {
+       "Deploy_round": 238,
+       "Patch_id": "patch@cold-fusion@1723406152-c2f52540-7e6e-4268-81d6-78758721a5a8"
+     }
+   ],
+   "attacks": {
+     "never-stop-exploiting": {
+       "157": "atk@157@cold-fusion@never-stop-exploiting@1723334353-1baaa5bf-d19f-4dc1-846d-68b8910e5387",
+       "158": "atk@158@cold-fusion@never-stop-exploiting@1723334462-fd2784c8-b934-4f83-b65f-598aa8ce2125",
+       "159": "atk@159@cold-fusion@never-stop-exploiting@1723334784-46370fad-c1e3-48b4-85d3-2e87c83cc468",
+       "160": "atk@160@cold-fusion@never-stop-exploiting@1723335044-7cf48eb7-c326-414a-8bf7-f0d7874bd133",
+       "161": "atk@161@cold-fusion@never-stop-exploiting@1723335333-8c15370f-ed42-49fd-8521-fe8762dbcbf6",
+       "162": "atk@162@cold-fusion@never-stop-exploiting@1723335620-879b7a67-8e41-404d-afae-3ffa17427da8",
+       "163": "atk@163@cold-fusion@never-stop-exploiting@1723335907-cc1f8ca9-4830-44d3-949e-006cea8f359b",
+       "164": "atk@164@cold-fusion@never-stop-exploiting@1723336298-748cdba1-b4e1-4dd7-b142-e86018b886fa",
+       "165": "atk@165@cold-fusion@never-stop-exploiting@1723336585-af66db99-9f31-409e-8176-2fb797226215",
+       "166": "atk@166@cold-fusion@never-stop-exploiting@1723336872-0cf0b116-7cdb-4cf9-bb91-6df462778671",
+       "167": "atk@167@cold-fusion@never-stop-exploiting@1723337159-e91e9f72-c5c2-4194-ab28-3fe67b4c3ef8",
+       "168": "atk@168@cold-fusion@never-stop-exploiting@1723337447-87d9996d-b9f2-43c2-b0b5-84b8a55506f3",
+       "169": "atk@169@cold-fusion@never-stop-exploiting@1723337735-9cfb13c8-45ab-4751-91b6-b4d2399477ca",
+       "170": "atk@170@cold-fusion@never-stop-exploiting@1723395681-2103bf52-cd29-493e-9f8e-7068f44388eb",
+       "171": "atk@171@cold-fusion@never-stop-exploiting@1723395967-6e76ab8c-8b4a-4792-9d6f-c7a39f9f3c18",
+       "172": "atk@172@cold-fusion@never-stop-exploiting@1723396254-4a638b37-f949-4715-9f82-ef016704397b",
+       "173": "atk@173@cold-fusion@never-stop-exploiting@1723396540-8da0ce8b-7df5-458b-85df-c48411a29eee",
+       "174": "atk@174@cold-fusion@never-stop-exploiting@1723396827-7962fff2-ac8b-4815-a403-feae0d82d548",
+       "175": "atk@175@cold-fusion@never-stop-exploiting@1723397113-adb3f872-8821-4e23-858b-650ed05da972",
+       "176": "atk@176@cold-fusion@never-stop-exploiting@1723397404-46aa2173-6c4f-47fa-af5c-1c907b083e77",
+       "177": "atk@177@cold-fusion@never-stop-exploiting@1723397759-551454e3-eba1-48d0-89f0-719c165edba9",
+       "178": "atk@178@cold-fusion@never-stop-exploiting@1723398050-4ea90a4e-c042-4663-a34f-eb330a32f1b0",
+       "179": "atk@179@cold-fusion@never-stop-exploiting@1723398337-2d1a84b0-7e2c-4c2f-bd11-97f2af324884",
+       "180": "atk@180@cold-fusion@never-stop-exploiting@1723398624-f9c51000-a815-4ef3-9609-767c33783452",
+       "181": "atk@181@cold-fusion@never-stop-exploiting@1723398912-17b64f51-fd2e-4a6c-bb31-37ae5e74655f",
+       "182": "atk@182@cold-fusion@never-stop-exploiting@1723399378-10fd119d-e508-4080-b2be-fcd643ab13aa",
+       "183": "atk@183@cold-fusion@never-stop-exploiting@1723399682-a896ac0a-6ef4-477c-b8ff-fc3100941839",
+       "184": "atk@184@cold-fusion@never-stop-exploiting@1723399987-3ab8236e-755a-4065-a313-ac1ee4aa0652",
+       "185": "atk@185@cold-fusion@never-stop-exploiting@1723400394-6a2c01c9-0da2-4559-8ba0-b299639c4c45",
+       "186": "atk@186@cold-fusion@never-stop-exploiting@1723400698-af0405a2-5521-47f8-b0a8-3f2294372c9a",
+       "188": "atk@188@cold-fusion@never-stop-exploiting@1723401041-5a84a57c-1ba8-4dae-a33b-fc07084b71d1",
+       "189": "atk@189@cold-fusion@never-stop-exploiting@1723401328-a9f4552c-6ece-4d1e-b28a-3ad5d028a16d",
+       "190": "atk@190@cold-fusion@never-stop-exploiting@1723401614-bb13a3d5-28e3-4a90-a51a-cebb02c87f4d",
+       "191": "atk@191@cold-fusion@never-stop-exploiting@1723401901-7e330317-ce6f-4b57-bc65-3f03efe17f5e",
+       "192": "atk@192@cold-fusion@never-stop-exploiting@1723402282-e7ec2202-c8c3-4929-97d2-37ee125e4b35",
+       "193": "atk@193@cold-fusion@never-stop-exploiting@1723402572-7afc78d4-a51b-4cbe-bf15-d5c5fe3f5d91",
+       "194": "atk@194@cold-fusion@never-stop-exploiting@1723402859-c4df6a67-7f58-483c-8c41-89951cb383c6",
+       "195": "atk@195@cold-fusion@never-stop-exploiting@1723403148-ae65591f-08a7-429c-ab3c-f62ddd64990f",
+       "196": "atk@196@cold-fusion@never-stop-exploiting@1723403436-125ea752-9ca6-45ff-9c30-b75cfef1cfc0",
+       "197": "atk@197@cold-fusion@never-stop-exploiting@1723403723-6122a8a8-32b2-4068-b83c-5056fe26407d",
+       "198": "atk@198@cold-fusion@never-stop-exploiting@1723404010-16fa4d56-5a99-4483-8f15-7ff8092dc8f7",
+       "199": "atk@199@cold-fusion@never-stop-exploiting@1723404322-a743b86c-ba64-4d5e-ba8b-2d12d89546bb",
+       "200": "atk@200@cold-fusion@never-stop-exploiting@1723404608-30a8b283-d3c0-426a-9952-b5eadf4a12be",
+       "201": "atk@201@cold-fusion@never-stop-exploiting@1723404949-c7745369-31bb-4e67-959a-63410312bcb4",
+       "202": "atk@202@cold-fusion@never-stop-exploiting@1723405237-705c971e-e23e-4956-83bf-b3a57afd9fd5",
+       "203": "atk@203@cold-fusion@never-stop-exploiting@1723405524-935327ed-4c68-47ca-97a4-fceb37e7470c",
+       "236": "atk@236@cold-fusion@never-stop-exploiting@1723405870-a07a40d5-02cc-43a2-b22e-96a406351f4a",
+       "237": "atk@237@cold-fusion@never-stop-exploiting@1723406139-8bfa1d7b-71aa-4dba-a361-37b32813da7d"
+     },
+     "next-years-organizers": {
+       "163": "atk@163@cold-fusion@next-years-organizers@1723336182-41316033-4f3f-48f8-88a9-fe00d1070451",
+       "164": "atk@164@cold-fusion@next-years-organizers@1723336334-953346b6-e401-4eed-b641-000c7c005887",
+       "165": "atk@165@cold-fusion@next-years-organizers@1723336722-6ccd2c63-7fbc-4d08-b841-c01118f676e7",
+       "166": "atk@166@cold-fusion@next-years-organizers@1723337021-14391d76-4a51-43fd-9738-92d7bffdb7d0",
+       "167": "atk@167@cold-fusion@next-years-organizers@1723337318-1025ca23-0ffb-4e5c-821d-3d3addca8472",
+       "168": "atk@168@cold-fusion@next-years-organizers@1723337615-0ef15ccd-8328-4350-8d77-7d41d7addc02",
+       "169": "atk@169@cold-fusion@next-years-organizers@1723337899-2853bd2c-f069-4730-bae5-cbb83411711b",
+       "170": "atk@170@cold-fusion@next-years-organizers@1723395644-c1f5f18a-210d-4624-af0d-650a59a9c266"
+     }
+   },
+   "score": 56
+ }

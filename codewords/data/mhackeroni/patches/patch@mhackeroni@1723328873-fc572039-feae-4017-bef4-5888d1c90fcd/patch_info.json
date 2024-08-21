@@ -1,0 +1,45 @@
+{
+   "id": "patch@mhackeroni@1723328873-fc572039-feae-4017-bef4-5888d1c90fcd",
+   "pending": false,
+   "generate_c_blob": "mhackeroni/blob-mhackeroni-1723328870-8d634642-8284-4e38-8058-f95ef53e95c6-8707f448-d92c-4997-aed0-ea77f6dc4c16-96/generate.c",
+   "generate_wasm_blob": "mhackeroni/blob-mhackeroni-1723328870-5d5dcef9-4dbe-4dc5-be9c-02002fcd1b9d-645459f9-c45f-4e28-8852-781417c0138a-0/generate.wasm",
+   "verify_c_blob": "mhackeroni/blob-mhackeroni-1723328870-d4839d8e-ddaa-405e-b5c6-eb590f6a4d34-ccc33bae-9f6c-46dd-89b5-4ed68077c5a5-3113/verify.c",
+   "verify_wasm_blob": "mhackeroni/blob-mhackeroni-1723328870-49b96b02-1a2a-422a-a520-42892e324ab9-db3cfe85-19a4-4356-94cd-8b471b330b1d-0/verify.wasm",
+   "generate_c_sha256": "e9de57488a2b2083a04cf4c9252cb35884c0489b281b47d4a935e01edc950c8f",
+   "verify_c_sha256": "f968f7fe9c1eb654eba4ed10a9728423485b2d29e87405d0132fb6aa96d74847",
+   "generate_wasm_sha256": "e9de57488a2b2083a04cf4c9252cb35884c0489b281b47d4a935e01edc950c8f",
+   "verify_wasm_sha256": "f968f7fe9c1eb654eba4ed10a9728423485b2d29e87405d0132fb6aa96d74847",
+   "queue_time": "1723328870034",
+   "compile_time": "1723328873504",
+   "compile_id": "job@comp@mhackeroni@1723328870-894af17c-f277-4e8b-9d29-13e853eca846-9a065699-887a-43f3-ad62-35e2f1cfa681",
+   "team_id": "mhackeroni",
+   "start_round": 140,
+   "end_round": 147,
+   "base_patch": false,
+   "stats": null,
+   "status": "pending",
+   "compile_result": {
+     "compile-outcome": {
+       "generate.c": "Building `generate.c`:\n\nSuccessfully compiled `generate.c`\n",
+       "verify.c": "Building `verify.c`:\n\nSuccessfully compiled `verify.c`\n"
+     },
+     "compile-status": "success",
+     "test-outcome": {
+       "generate_run": {
+         "error": null,
+         "fuel_used": 2,
+         "input_round_num": 36,
+         "output": "3536842594680571822"
+       },
+       "passed": true,
+       "status": "success",
+       "verify_run": {
+         "error": null,
+         "fuel_used": 799,
+         "input_round_num": 36,
+         "output": "1"
+       }
+     },
+     "test-status": "success"
+   }
+ }

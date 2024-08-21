@@ -1,0 +1,45 @@
+{
+   "id": "patch@friendly-maltese-citizens@1723321311-f42c6eed-19da-4a7f-9637-1de8eb60bd4b",
+   "pending": false,
+   "generate_c_blob": "friendly-maltese-citizens/blob-friendly-maltese-citizens-1723321309-c35daa6a-3704-4302-be83-dceda6f19b5c-dcd4eaf4-51ff-43bb-97a6-535efe69cde6-96/generate.c",
+   "generate_wasm_blob": "friendly-maltese-citizens/blob-friendly-maltese-citizens-1723321309-e88fcd5f-039a-42ed-851e-59c79a313159-f06299a5-9193-47b2-b98b-4fd563b2c2d0-0/generate.wasm",
+   "verify_c_blob": "friendly-maltese-citizens/blob-friendly-maltese-citizens-1723321309-f75584da-b99f-4f4a-8fd8-cbf9cb6ae6bc-b4d23cda-af68-441f-ae53-219fe350cd11-163/verify.c",
+   "verify_wasm_blob": "friendly-maltese-citizens/blob-friendly-maltese-citizens-1723321309-9e242818-9e66-4a87-ae45-7c761b1cce60-46a1698b-fc5b-4768-ac41-d07fc2abf3b4-0/verify.wasm",
+   "generate_c_sha256": "2d0ededbe8291e56027214e48f3bf1b310889d493b7c3a78b408d7ae8885ae97",
+   "verify_c_sha256": "0d07f05cf467f6b9b4453f6a400103cf374624ba00a39c63ea61de536ce1988a",
+   "generate_wasm_sha256": "2d0ededbe8291e56027214e48f3bf1b310889d493b7c3a78b408d7ae8885ae97",
+   "verify_wasm_sha256": "0d07f05cf467f6b9b4453f6a400103cf374624ba00a39c63ea61de536ce1988a",
+   "queue_time": "1723321309048",
+   "compile_time": "1723321311815",
+   "compile_id": "job@comp@friendly-maltese-citizens@1723321309-4366e7f7-7043-45db-8ed4-885c582bd67a-01886ba5-8a39-40a1-b828-6f3d42c12cb4",
+   "team_id": "friendly-maltese-citizens",
+   "start_round": 115,
+   "end_round": 116,
+   "base_patch": false,
+   "stats": null,
+   "status": "pending",
+   "compile_result": {
+     "compile-outcome": {
+       "generate.c": "Building `generate.c`:\n\nSuccessfully compiled `generate.c`\n",
+       "verify.c": "Building `verify.c`:\n\nSuccessfully compiled `verify.c`\n"
+     },
+     "compile-status": "success",
+     "test-outcome": {
+       "generate_run": {
+         "error": null,
+         "fuel_used": 5,
+         "input_round_num": 249,
+         "output": "3735928342"
+       },
+       "passed": true,
+       "status": "success",
+       "verify_run": {
+         "error": null,
+         "fuel_used": 8,
+         "input_round_num": 249,
+         "output": "1"
+       }
+     },
+     "test-status": "success"
+   }
+ }

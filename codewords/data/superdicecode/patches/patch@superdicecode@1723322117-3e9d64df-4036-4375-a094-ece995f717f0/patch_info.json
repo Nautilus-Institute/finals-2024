@@ -1,0 +1,45 @@
+{
+   "id": "patch@superdicecode@1723322117-3e9d64df-4036-4375-a094-ece995f717f0",
+   "pending": false,
+   "generate_c_blob": "superdicecode/blob-superdicecode-1723322115-f245afd8-5f7c-4c0b-95d5-91d86b4e1edd-8563667e-949a-4bbc-bbb7-d41cf2dfab4c-149/generate.c",
+   "generate_wasm_blob": "superdicecode/blob-superdicecode-1723322115-892a9262-391e-48ea-b8d7-1eed80da8b7e-eff63e4f-2d0b-4612-a566-6cb751d81063-0/generate.wasm",
+   "verify_c_blob": "superdicecode/blob-superdicecode-1723322115-01bac137-e403-490c-9d4d-1c8c018d1126-7329a162-ca5f-4d65-8185-5f46c8343cf3-532/verify.c",
+   "verify_wasm_blob": "superdicecode/blob-superdicecode-1723322115-6485a359-7029-48c2-a0c7-0422b186f319-6688fbe8-755d-415c-9c47-f791983d0516-0/verify.wasm",
+   "generate_c_sha256": "49f29d3916fe4e47403ba388460551b362d6e95316e0e93aefa1d49588ced829",
+   "verify_c_sha256": "c38f3193eaba71f5204c63229f453bcf1c8a65f3fec25c5636b2d0d637a139e5",
+   "generate_wasm_sha256": "49f29d3916fe4e47403ba388460551b362d6e95316e0e93aefa1d49588ced829",
+   "verify_wasm_sha256": "c38f3193eaba71f5204c63229f453bcf1c8a65f3fec25c5636b2d0d637a139e5",
+   "queue_time": "1723322115014",
+   "compile_time": "1723322117080",
+   "compile_id": "job@comp@superdicecode@1723322115-190bf18a-3f7d-4174-8803-ef210513aebf-d5bda99c-6ce9-4f33-ba2a-eff9b99e72c6",
+   "team_id": "superdicecode",
+   "start_round": 118,
+   "end_round": 118,
+   "base_patch": false,
+   "stats": null,
+   "status": "pending",
+   "compile_result": {
+     "compile-outcome": {
+       "generate.c": "Building `generate.c`:\n\nSuccessfully compiled `generate.c`\n",
+       "verify.c": "Building `verify.c`:\n\nSuccessfully compiled `verify.c`\n"
+     },
+     "compile-status": "success",
+     "test-outcome": {
+       "generate_run": {
+         "error": null,
+         "fuel_used": 2,
+         "input_round_num": 185,
+         "output": "15118251635586755613"
+       },
+       "passed": true,
+       "status": "success",
+       "verify_run": {
+         "error": null,
+         "fuel_used": 805,
+         "input_round_num": 185,
+         "output": "1"
+       }
+     },
+     "test-status": "success"
+   }
+ }

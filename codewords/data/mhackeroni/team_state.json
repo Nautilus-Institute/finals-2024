@@ -1,0 +1,174 @@
+{
+   "id": "mhackeroni",
+   "name": "mhackeroni",
+   "current_patch_id": "patch@mhackeroni@1723401365-2d878e6a-c10a-4a57-b876-6b2019c6bdf5",
+   "current_patch": {
+     "id": "patch@mhackeroni@1723401365-2d878e6a-c10a-4a57-b876-6b2019c6bdf5",
+     "pending": false,
+     "generate_c_blob": "mhackeroni/blob-mhackeroni-1723401362-375687d0-0038-4209-b26c-c988e0e8073d-b706c0fa-54a6-4290-9b56-288da90c6dbb-183/generate.c",
+     "generate_wasm_blob": "mhackeroni/blob-mhackeroni-1723401362-a6dfe733-1470-41fc-821c-63f08d729467-ce7b3b02-75d7-4973-812e-d6ab59ad09aa-0/generate.wasm",
+     "verify_c_blob": "mhackeroni/blob-mhackeroni-1723401362-578bf8d5-d4c2-4d8c-89a0-2eb5e18bab1b-42126752-391c-46d5-865e-5c00eb677800-3807/verify.c",
+     "verify_wasm_blob": "mhackeroni/blob-mhackeroni-1723401362-086434ce-6a87-4f7b-81b0-fd9cdb52d9da-cc6e09ff-0b90-4912-8700-9fc28143cb0c-0/verify.wasm",
+     "generate_c_sha256": "b36cf13ccd0a7c6ce7ef410d8004f9c6ec53695f79182b1ce6508a62633d7f6f",
+     "verify_c_sha256": "769da51c69a10a7908c62179f477d831a129443c2e389feab8a4ac7ad8e14d6a",
+     "generate_wasm_sha256": "b36cf13ccd0a7c6ce7ef410d8004f9c6ec53695f79182b1ce6508a62633d7f6f",
+     "verify_wasm_sha256": "769da51c69a10a7908c62179f477d831a129443c2e389feab8a4ac7ad8e14d6a",
+     "queue_time": "1723401362308",
+     "compile_time": "1723401365713",
+     "compile_id": "job@comp@mhackeroni@1723401362-8e0bc572-b8eb-41e7-a61e-7fc333a5930d-6e2c5cba-d3c5-47af-a69d-75a73ef60083",
+     "team_id": "mhackeroni",
+     "start_round": 190,
+     "end_round": null,
+     "base_patch": false,
+     "stats": null,
+     "status": "pending",
+     "compile_result": {
+       "compile-outcome": {
+         "generate.c": "Building `generate.c`:\n\nSuccessfully compiled `generate.c`\n",
+         "verify.c": "Building `verify.c`:\n\nSuccessfully compiled `verify.c`\n"
+       },
+       "compile-status": "success",
+       "test-outcome": {
+         "generate_run": {
+           "error": null,
+           "fuel_used": 2,
+           "input_round_num": 170,
+           "output": "13635167066653732308"
+         },
+         "passed": true,
+         "status": "success",
+         "verify_run": {
+           "error": null,
+           "fuel_used": 799,
+           "input_round_num": 170,
+           "output": "1"
+         }
+       },
+       "test-status": "success"
+     }
+   },
+   "deployed_patches": [
+     {
+       "Deploy_round": 0,
+       "Patch_id": "patch@mhackeroni@1723317032-369be6d6-becc-4389-97b0-5c8fa8d1f004"
+     },
+     {
+       "Deploy_round": 108,
+       "Patch_id": "patch@mhackeroni@1723319160-ac2b4ee2-73d0-4cda-9b76-fed9b3e9046e"
+     },
+     {
+       "Deploy_round": 109,
+       "Patch_id": "patch@mhackeroni@1723319408-313c1cbc-1139-4318-a391-c45ecdfd0ee3"
+     },
+     {
+       "Deploy_round": 120,
+       "Patch_id": "patch@mhackeroni@1723322843-75f4c6d0-39bf-4a01-90dd-a3d611cd2cf4"
+     },
+     {
+       "Deploy_round": 123,
+       "Patch_id": "patch@mhackeroni@1723323839-74816d39-2cdc-4a15-83a7-32e9a7bbe4b2"
+     },
+     {
+       "Deploy_round": 137,
+       "Patch_id": "patch@mhackeroni@1723327826-360b9c2c-a73f-4ebc-9ba6-68e4b4ed2460"
+     },
+     {
+       "Deploy_round": 138,
+       "Patch_id": "patch@mhackeroni@1723328282-bf52d618-50f4-4c35-b8a1-83066d1b2226"
+     },
+     {
+       "Deploy_round": 140,
+       "Patch_id": "patch@mhackeroni@1723328873-fc572039-feae-4017-bef4-5888d1c90fcd"
+     },
+     {
+       "Deploy_round": 148,
+       "Patch_id": "patch@mhackeroni@1723331332-d25e45eb-7f4d-4f61-b19e-9f25ed5720e0"
+     },
+     {
+       "Deploy_round": 152,
+       "Patch_id": "patch@mhackeroni@1723332600-a4e073f9-07a2-47de-8726-4f180d462bc9"
+     },
+     {
+       "Deploy_round": 157,
+       "Patch_id": "patch@mhackeroni@1723333947-5e1b81ad-2496-41c0-87a4-ba4cde377a80"
+     },
+     {
+       "Deploy_round": 160,
+       "Patch_id": "patch@mhackeroni@1723334795-bb320329-d909-4d58-9b44-f16e2124ae4f"
+     },
+     {
+       "Deploy_round": 162,
+       "Patch_id": "patch@mhackeroni@1723335312-abe23f54-ad20-4b8e-a1e6-991030228707"
+     },
+     {
+       "Deploy_round": 166,
+       "Patch_id": "patch@mhackeroni@1723336502-1ba500c5-8589-48c8-b61f-cc0b25d279de"
+     },
+     {
+       "Deploy_round": 167,
+       "Patch_id": "patch@mhackeroni@1723337027-bcfa393c-1384-40d5-9bff-49f09525b7d0"
+     },
+     {
+       "Deploy_round": 171,
+       "Patch_id": "patch@mhackeroni@1723395739-e6f45ff8-3ef6-4904-9b8c-eeb15597d2d6"
+     },
+     {
+       "Deploy_round": 181,
+       "Patch_id": "patch@mhackeroni@1723398650-cf8281dc-099a-4ce6-8ecd-b39d8ec44da6"
+     },
+     {
+       "Deploy_round": 190,
+       "Patch_id": "patch@mhackeroni@1723401365-2d878e6a-c10a-4a57-b876-6b2019c6bdf5"
+     }
+   ],
+   "attacks": {
+     "cold-fusion": {
+       "128": "atk@128@mhackeroni@cold-fusion@1723325511-dbd171af-3ff3-4f2b-8015-05977274bc0f",
+       "129": "atk@129@mhackeroni@cold-fusion@1723325838-e01673d0-301f-46d6-abac-74c98547e3cd"
+     },
+     "friendly-maltese-citizens": {
+       "110": "atk@110@mhackeroni@friendly-maltese-citizens@1723320217-87a8cee8-7ec7-4865-9c0b-121394582f99",
+       "111": "atk@111@mhackeroni@friendly-maltese-citizens@1723320533-817ceb1e-2666-4662-a354-e23a538c58ea",
+       "112": "atk@112@mhackeroni@friendly-maltese-citizens@1723320761-661888fa-3481-4cce-860e-cfdb57df3c85",
+       "127": "atk@127@mhackeroni@friendly-maltese-citizens@1723325278-b171ea01-34bd-4a1b-a7cb-459ce06ecb0f"
+     },
+     "maple-mallard-magistrates": {
+       "114": "atk@114@mhackeroni@maple-mallard-magistrates@1723321436-243d4556-d5a2-423b-a706-6997daa924be",
+       "115": "atk@115@mhackeroni@maple-mallard-magistrates@1723321699-2cabac77-3f09-4912-84f4-00b17bbf3b9c",
+       "116": "atk@116@mhackeroni@maple-mallard-magistrates@1723321841-c585e591-6997-4572-abcf-0ac6a70a1c84",
+       "117": "atk@117@mhackeroni@maple-mallard-magistrates@1723322107-f7aee817-b1ca-42be-835e-40fd65558216",
+       "118": "atk@118@mhackeroni@maple-mallard-magistrates@1723322588-5d344ae7-7d9d-4a10-862d-22660614e662",
+       "119": "atk@119@mhackeroni@maple-mallard-magistrates@1723322721-3975e4a6-616a-4a96-a371-cd0fd87d91a6",
+       "122": "atk@122@mhackeroni@maple-mallard-magistrates@1723323695-53d404eb-d66e-4761-8b8d-2322dd3e81df",
+       "123": "atk@123@mhackeroni@maple-mallard-magistrates@1723323919-a9958511-6da8-4f62-9f66-acd7055ac5bb",
+       "124": "atk@124@mhackeroni@maple-mallard-magistrates@1723324469-9253ef1f-0572-413d-97a3-0c59ff5d0667",
+       "125": "atk@125@mhackeroni@maple-mallard-magistrates@1723324588-6dabb070-d55c-4fb6-a936-ffbf2fe29498",
+       "126": "atk@126@mhackeroni@maple-mallard-magistrates@1723324866-24ace620-65d8-4bf0-8335-5be4417a504d",
+       "127": "atk@127@mhackeroni@maple-mallard-magistrates@1723325237-f9aa7498-a1ee-4a8b-8b34-8b933dfe81bb",
+       "128": "atk@128@mhackeroni@maple-mallard-magistrates@1723325486-6aa4c6f6-6917-466d-926a-5a70aa5e02d2"
+     },
+     "never-stop-exploiting": {
+       "114": "atk@114@mhackeroni@never-stop-exploiting@1723321288-0cfe5570-c529-499f-a113-f8f44858e2e0",
+       "115": "atk@115@mhackeroni@never-stop-exploiting@1723321746-10710d59-a3ae-4145-acba-e265c5f1fce6"
+     },
+     "next-years-organizers": {
+       "114": "atk@114@mhackeroni@next-years-organizers@1723321234-7f2411f5-5e22-4e7c-b10d-4226a6488802",
+       "159": "atk@159@mhackeroni@next-years-organizers@1723334952-bc282960-4aa0-491e-b910-c7689cdc5042",
+       "160": "atk@160@mhackeroni@next-years-organizers@1723335049-dec7addb-5dcd-4245-ae28-997d9e9f5267",
+       "161": "atk@161@mhackeroni@next-years-organizers@1723335365-1936dbcf-17cf-45c6-af7c-7fc9d8e296c7",
+       "162": "atk@162@mhackeroni@next-years-organizers@1723335611-42312167-0e1c-45f6-b8eb-a1ae6235ccb9",
+       "163": "atk@163@mhackeroni@next-years-organizers@1723335966-c5799fe0-20ee-4ed7-b4ca-ba1862ad7581",
+       "164": "atk@164@mhackeroni@next-years-organizers@1723336212-ca05af17-34a5-4fe9-97ae-58ae4900769b",
+       "165": "atk@165@mhackeroni@next-years-organizers@1723336567-fec551ff-fd2b-4678-8ac9-dfef78b3133d",
+       "166": "atk@166@mhackeroni@next-years-organizers@1723336812-4cbcf433-9319-4755-b18b-e2846b5ea7bd",
+       "167": "atk@167@mhackeroni@next-years-organizers@1723337167-5eaa8657-7090-47e9-a66d-370de7ab5e49",
+       "168": "atk@168@mhackeroni@next-years-organizers@1723337413-2969aff1-afe0-47a8-9e13-f12c83a088c3",
+       "169": "atk@169@mhackeroni@next-years-organizers@1723337768-0aaf3a9d-4a2e-4015-97f4-c42195a2328c",
+       "170": "atk@170@mhackeroni@next-years-organizers@1723395639-c9b0b0ba-72db-40da-8c27-fe1eaadecdd3"
+     },
+     "superdicecode": {
+       "111": "atk@111@mhackeroni@superdicecode@1723320596-9f8feeca-5a0d-4348-81ed-7f44240ab8af"
+     }
+   },
+   "score": 35
+ }

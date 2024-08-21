@@ -1,0 +1,45 @@
+{
+   "id": "patch@repokemonedcollections@1723321743-db22ee87-4a0a-44df-abe1-9e3be43097dc",
+   "pending": false,
+   "generate_c_blob": "repokemonedcollections/blob-repokemonedcollections-1723321740-3709eda0-d466-40d0-93cc-bd65a24de423-5357f754-41af-459f-bdde-d5157e595ae1-435/generate.c",
+   "generate_wasm_blob": "repokemonedcollections/blob-repokemonedcollections-1723321740-69205bd9-77b0-498d-a634-124b2ad0d127-12fe5e0a-cf42-4ed2-aeec-71f889442f3e-0/generate.wasm",
+   "verify_c_blob": "repokemonedcollections/blob-repokemonedcollections-1723321740-c6e077f5-82f4-4e32-80b0-1e1eade17731-246d87db-febc-4b39-8b32-d805547324bb-12586/verify.c",
+   "verify_wasm_blob": "repokemonedcollections/blob-repokemonedcollections-1723321740-4785272f-2e3a-4510-9a33-409c6f2cd347-7e93b978-20ea-472e-9ad1-d74b3ac6aa19-0/verify.wasm",
+   "generate_c_sha256": "d573eae768aab944b4f3781f6654613209fe8cb07ae33dbc8ef97cba0ca5ee2b",
+   "verify_c_sha256": "b83003eeae287e22eaeb5e51317aa114d0308d83a0420c2561e8e344d13c26e5",
+   "generate_wasm_sha256": "d573eae768aab944b4f3781f6654613209fe8cb07ae33dbc8ef97cba0ca5ee2b",
+   "verify_wasm_sha256": "b83003eeae287e22eaeb5e51317aa114d0308d83a0420c2561e8e344d13c26e5",
+   "queue_time": "1723321740375",
+   "compile_time": "1723321743051",
+   "compile_id": "job@comp@repokemonedcollections@1723321740-fa2f7b5f-d08f-46f2-90e8-0fd1e8be73ec-9331b6d6-9533-44ed-8f5c-136e43d45fbb",
+   "team_id": "repokemonedcollections",
+   "start_round": 116,
+   "end_round": null,
+   "base_patch": false,
+   "stats": null,
+   "status": "pending",
+   "compile_result": {
+     "compile-outcome": {
+       "generate.c": "Building `generate.c`:\n/blob/source/generate/generate.c:13:67: warning: integer literal is too large to be represented in a signed integer type, interpreting as unsigned [-Wimplicitly-unsigned-literal]\n    uint64_t input = splitmix64(round_num * 5736988456561685269 - 14933979640789370536) + 10094877306414711254;\n                                                                  ^\n/blob/source/generate/generate.c:13:91: warning: integer literal is too large to be represented in a signed integer type, interpreting as unsigned [-Wimplicitly-unsigned-literal]\n    uint64_t input = splitmix64(round_num * 5736988456561685269 - 14933979640789370536) + 10094877306414711254;\n                                                                                          ^\n2 warnings generated.\n\nSuccessfully compiled `generate.c`\n",
+       "verify.c": "Building `verify.c`:\n\nSuccessfully compiled `verify.c`\n"
+     },
+     "compile-status": "success",
+     "test-outcome": {
+       "generate_run": {
+         "error": null,
+         "fuel_used": 28,
+         "input_round_num": 42,
+         "output": "7321355179288607964"
+       },
+       "passed": true,
+       "status": "success",
+       "verify_run": {
+         "error": null,
+         "fuel_used": 33,
+         "input_round_num": 42,
+         "output": "1"
+       }
+     },
+     "test-status": "success"
+   }
+ }

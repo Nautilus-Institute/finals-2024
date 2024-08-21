@@ -1,0 +1,196 @@
+{
+   "id": "if-this-works-well-get-fewer-for-next-year",
+   "name": "if-this-works-well-get-fewer-for-next-year",
+   "current_patch_id": "patch@if-this-works-well-get-fewer-for-next-year@1723396177-7e09539f-bab3-4841-903c-22dd259950ec",
+   "current_patch": {
+     "id": "patch@if-this-works-well-get-fewer-for-next-year@1723396177-7e09539f-bab3-4841-903c-22dd259950ec",
+     "pending": false,
+     "generate_c_blob": "if-this-works-well-get-fewer-for-next-year/blob-if-this-works-well-get-fewer-for-next-year-1723396173-a11c0ea6-1f7a-41d8-bdbc-8111abd464e9-89d706b1-9baa-455f-9e92-149e87b3d56d-198/generate.c",
+     "generate_wasm_blob": "if-this-works-well-get-fewer-for-next-year/blob-if-this-works-well-get-fewer-for-next-year-1723396173-936849b4-8b11-446f-98e3-d83668504b54-e83b3093-b655-4155-b9ad-20527a0966bd-0/generate.wasm",
+     "verify_c_blob": "if-this-works-well-get-fewer-for-next-year/blob-if-this-works-well-get-fewer-for-next-year-1723396173-512fbcc8-fc8a-421d-b6d0-bdeadee492b0-2b9050da-af35-4089-9433-bee71b5117d5-6969/verify.c",
+     "verify_wasm_blob": "if-this-works-well-get-fewer-for-next-year/blob-if-this-works-well-get-fewer-for-next-year-1723396173-6e8a19aa-7b0f-4ec1-bfb0-eb5b7930170a-d7682024-129c-4eb8-aed3-613e67682bd0-0/verify.wasm",
+     "generate_c_sha256": "30d138e168520206815fa767c85807fc98d1aa9fcf86c85995f361813e2a8ce1",
+     "verify_c_sha256": "efa50282b3e8de7ae3ee2cb6e17e97fe4cec8a3f50d5cd1fabc69f476a9dd48c",
+     "generate_wasm_sha256": "30d138e168520206815fa767c85807fc98d1aa9fcf86c85995f361813e2a8ce1",
+     "verify_wasm_sha256": "efa50282b3e8de7ae3ee2cb6e17e97fe4cec8a3f50d5cd1fabc69f476a9dd48c",
+     "queue_time": "1723396173065",
+     "compile_time": "1723396177326",
+     "compile_id": "job@comp@if-this-works-well-get-fewer-for-next-year@1723396173-ef6e361c-3a00-4820-9d54-534324be7d6c-9d95e65a-d32c-44ba-a1d2-3ff316c3a0c0",
+     "team_id": "if-this-works-well-get-fewer-for-next-year",
+     "start_round": 172,
+     "end_round": null,
+     "base_patch": false,
+     "stats": null,
+     "status": "pending",
+     "compile_result": {
+       "compile-outcome": {
+         "generate.c": "Building `generate.c`:\n\nSuccessfully compiled `generate.c`\n",
+         "verify.c": "Building `verify.c`:\n\nSuccessfully compiled `verify.c`\n"
+       },
+       "compile-status": "success",
+       "test-outcome": {
+         "generate_run": {
+           "error": null,
+           "fuel_used": 9,
+           "input_round_num": 145,
+           "output": "9755695354384880669"
+         },
+         "passed": true,
+         "status": "success",
+         "verify_run": {
+           "error": null,
+           "fuel_used": 856,
+           "input_round_num": 145,
+           "output": "1"
+         }
+       },
+       "test-status": "success"
+     }
+   },
+   "deployed_patches": [
+     {
+       "Deploy_round": 0,
+       "Patch_id": "patch@if-this-works-well-get-fewer-for-next-year@1723317032-68f46370-eb23-4d14-b998-8396fef6d378"
+     },
+     {
+       "Deploy_round": 110,
+       "Patch_id": "patch@if-this-works-well-get-fewer-for-next-year@1723319912-3c136775-20b6-4470-ad4d-463c80d1a89f"
+     },
+     {
+       "Deploy_round": 112,
+       "Patch_id": "patch@if-this-works-well-get-fewer-for-next-year@1723320588-892d5e8a-2eaa-4e02-8e68-3e84f73e6614"
+     },
+     {
+       "Deploy_round": 114,
+       "Patch_id": "patch@if-this-works-well-get-fewer-for-next-year@1723321130-1efe8caf-cd52-470b-82cb-18d8958aef0d"
+     },
+     {
+       "Deploy_round": 129,
+       "Patch_id": "patch@if-this-works-well-get-fewer-for-next-year@1723325658-816e7f28-eff8-4766-9f57-1ac5979ce61d"
+     },
+     {
+       "Deploy_round": 135,
+       "Patch_id": "patch@if-this-works-well-get-fewer-for-next-year@1723327303-913b2ccf-66ba-4735-8682-76ac7fcb86d1"
+     },
+     {
+       "Deploy_round": 139,
+       "Patch_id": "patch@if-this-works-well-get-fewer-for-next-year@1723328580-e9adb470-06b5-431d-984a-447ce7ec10ee"
+     },
+     {
+       "Deploy_round": 172,
+       "Patch_id": "patch@if-this-works-well-get-fewer-for-next-year@1723396177-7e09539f-bab3-4841-903c-22dd259950ec"
+     }
+   ],
+   "attacks": {
+     "blue-water": {
+       "118": "atk@118@if-this-works-well-get-fewer-for-next-year@blue-water@1723322603-03ba4da9-a749-461b-b181-17f669502bc9",
+       "119": "atk@119@if-this-works-well-get-fewer-for-next-year@blue-water@1723322760-f3e88778-1835-40d5-915d-c323e10f4be0",
+       "120": "atk@120@if-this-works-well-get-fewer-for-next-year@blue-water@1723323030-c0b307ea-f1c3-4b75-b857-1710c516fe74",
+       "121": "atk@121@if-this-works-well-get-fewer-for-next-year@blue-water@1723323455-c835e0f0-9178-4405-b491-badc0a7df458",
+       "122": "atk@122@if-this-works-well-get-fewer-for-next-year@blue-water@1723323664-7befce3d-4c63-4741-93c4-bf011ecc22af",
+       "123": "atk@123@if-this-works-well-get-fewer-for-next-year@blue-water@1723323921-915991f2-3b38-4264-bab5-2d9d1d2ba18c"
+     },
+     "cold-fusion": {
+       "127": "atk@127@if-this-works-well-get-fewer-for-next-year@cold-fusion@1723325350-1ce7dfec-06b9-40fb-a8d7-3b4f6147e12d",
+       "128": "atk@128@if-this-works-well-get-fewer-for-next-year@cold-fusion@1723325532-e6690edf-a69d-4435-9de9-727d5baa812b",
+       "129": "atk@129@if-this-works-well-get-fewer-for-next-year@cold-fusion@1723325734-46ac7069-5a86-4156-952d-3ede08b3aa84"
+     },
+     "friendly-maltese-citizens": {
+       "112": "atk@112@if-this-works-well-get-fewer-for-next-year@friendly-maltese-citizens@1723320710-c48b4891-7e3c-41b4-84e0-d8fb67ed67a4",
+       "120": "atk@120@if-this-works-well-get-fewer-for-next-year@friendly-maltese-citizens@1723323129-c764659a-52d9-4e08-a47b-d5e5fd8a608c",
+       "121": "atk@121@if-this-works-well-get-fewer-for-next-year@friendly-maltese-citizens@1723323405-70537c75-b608-4a97-ab01-916c72bdc784",
+       "122": "atk@122@if-this-works-well-get-fewer-for-next-year@friendly-maltese-citizens@1723323797-78cae9a7-147e-4e79-b7a4-9507fd28ee46",
+       "123": "atk@123@if-this-works-well-get-fewer-for-next-year@friendly-maltese-citizens@1723323988-3027885b-7462-4436-8b68-a31686cbc6f1",
+       "124": "atk@124@if-this-works-well-get-fewer-for-next-year@friendly-maltese-citizens@1723324318-5a961c48-762f-4864-9a2f-331106709409",
+       "125": "atk@125@if-this-works-well-get-fewer-for-next-year@friendly-maltese-citizens@1723324532-8fcc7695-c876-4961-b434-77eb90af0ec7",
+       "126": "atk@126@if-this-works-well-get-fewer-for-next-year@friendly-maltese-citizens@1723324855-ec9bdf4d-a2cc-4833-92e4-6f14a7606a19",
+       "127": "atk@127@if-this-works-well-get-fewer-for-next-year@friendly-maltese-citizens@1723325115-b8ce6457-4ef4-4edb-be9c-ff6f616fa3e7",
+       "128": "atk@128@if-this-works-well-get-fewer-for-next-year@friendly-maltese-citizens@1723325474-d7bcfe42-0236-4c07-a09d-bbbc9925d555",
+       "129": "atk@129@if-this-works-well-get-fewer-for-next-year@friendly-maltese-citizens@1723325709-2d977f7e-6b06-40e4-b351-3e858a5379b9",
+       "130": "atk@130@if-this-works-well-get-fewer-for-next-year@friendly-maltese-citizens@1723326021-47875907-9367-4f4c-9ce0-7c4d3f373329",
+       "131": "atk@131@if-this-works-well-get-fewer-for-next-year@friendly-maltese-citizens@1723326444-9a327ff8-c5b8-4027-a214-065c344fb14e",
+       "135": "atk@135@if-this-works-well-get-fewer-for-next-year@friendly-maltese-citizens@1723327663-af98e235-928b-4e22-ab31-391139aeb1bc",
+       "137": "atk@137@if-this-works-well-get-fewer-for-next-year@friendly-maltese-citizens@1723328228-0b7fe64b-7fb2-4421-9f2b-5fb55d72ea13",
+       "138": "atk@138@if-this-works-well-get-fewer-for-next-year@friendly-maltese-citizens@1723328643-69b82e8f-2e3d-4640-b757-d9927aa8e8af"
+     },
+     "maple-mallard-magistrates": {
+       "115": "atk@115@if-this-works-well-get-fewer-for-next-year@maple-mallard-magistrates@1723321512-4062a48f-6e6e-4cbf-ac51-a7b255592261",
+       "116": "atk@116@if-this-works-well-get-fewer-for-next-year@maple-mallard-magistrates@1723321927-bbfd2d75-4f84-4583-8769-bea666ea2f77",
+       "117": "atk@117@if-this-works-well-get-fewer-for-next-year@maple-mallard-magistrates@1723322209-de781fd9-a942-4a52-a3f6-2d5d4a34becf",
+       "118": "atk@118@if-this-works-well-get-fewer-for-next-year@maple-mallard-magistrates@1723322400-6795e0b5-8666-46fe-9be4-46dd5367c2ce",
+       "119": "atk@119@if-this-works-well-get-fewer-for-next-year@maple-mallard-magistrates@1723322702-b3bb623f-e210-4047-964e-5cf0cf00dc44",
+       "120": "atk@120@if-this-works-well-get-fewer-for-next-year@maple-mallard-magistrates@1723323030-5d8723dc-72a4-41ca-8c75-c704be0688fa",
+       "121": "atk@121@if-this-works-well-get-fewer-for-next-year@maple-mallard-magistrates@1723323308-01346fa6-d394-4c04-bb5e-49bbce204ae3",
+       "122": "atk@122@if-this-works-well-get-fewer-for-next-year@maple-mallard-magistrates@1723323664-602c27c5-c20e-493e-94e3-a1396441eacd",
+       "123": "atk@123@if-this-works-well-get-fewer-for-next-year@maple-mallard-magistrates@1723323919-2ba95f7e-e4c5-4d10-b7c9-546f7be0e243",
+       "124": "atk@124@if-this-works-well-get-fewer-for-next-year@maple-mallard-magistrates@1723324219-0b6d826a-36c0-414f-b405-ed87d3867503",
+       "125": "atk@125@if-this-works-well-get-fewer-for-next-year@maple-mallard-magistrates@1723324532-408e1683-9044-4efa-8e00-d716adee745d",
+       "126": "atk@126@if-this-works-well-get-fewer-for-next-year@maple-mallard-magistrates@1723324823-97106474-2480-4d03-9058-7cdbe520dcdb",
+       "127": "atk@127@if-this-works-well-get-fewer-for-next-year@maple-mallard-magistrates@1723325115-49fe3fbc-4c9b-4985-8229-d0c577368403",
+       "128": "atk@128@if-this-works-well-get-fewer-for-next-year@maple-mallard-magistrates@1723325412-c16ab165-9956-4138-83ea-d3e340f2648b"
+     },
+     "mhackeroni": {
+       "120": "atk@120@if-this-works-well-get-fewer-for-next-year@mhackeroni@1723323157-81a2788b-4dcc-40cc-a4a2-debbffd491f6",
+       "121": "atk@121@if-this-works-well-get-fewer-for-next-year@mhackeroni@1723323578-53cec9e1-c090-40eb-bc3d-90fb4a83e94a",
+       "122": "atk@122@if-this-works-well-get-fewer-for-next-year@mhackeroni@1723323664-33d8535c-e19b-4151-a59d-a4f49030de60"
+     },
+     "never-stop-exploiting": {
+       "112": "atk@112@if-this-works-well-get-fewer-for-next-year@never-stop-exploiting@1723320817-964395d1-433e-4517-9855-d1266f22955f",
+       "114": "atk@114@if-this-works-well-get-fewer-for-next-year@never-stop-exploiting@1723321279-d16aceb1-3bb9-4cfe-b96d-19164cfc1469",
+       "115": "atk@115@if-this-works-well-get-fewer-for-next-year@never-stop-exploiting@1723321530-6b63140b-a85b-4361-94e9-c86da878ad4b",
+       "123": "atk@123@if-this-works-well-get-fewer-for-next-year@never-stop-exploiting@1723323995-0d855405-4076-46af-923f-af1be9cec979",
+       "125": "atk@125@if-this-works-well-get-fewer-for-next-year@never-stop-exploiting@1723324626-fdae15fc-9225-4faa-8f24-c4889dab31bf",
+       "126": "atk@126@if-this-works-well-get-fewer-for-next-year@never-stop-exploiting@1723324823-1fda4178-a374-4b15-af54-8df48a49ee7b",
+       "127": "atk@127@if-this-works-well-get-fewer-for-next-year@never-stop-exploiting@1723325134-c2436dfb-0dda-49d2-bba7-3aa4a6784774",
+       "128": "atk@128@if-this-works-well-get-fewer-for-next-year@never-stop-exploiting@1723325441-187e1d8d-dfc5-44f4-8784-8ecb13a4234c",
+       "129": "atk@129@if-this-works-well-get-fewer-for-next-year@never-stop-exploiting@1723325752-9298345d-71a3-4a79-bb1f-7dc80ac17f79",
+       "130": "atk@130@if-this-works-well-get-fewer-for-next-year@never-stop-exploiting@1723326077-619fd75a-8d1f-4010-80a1-4e2f2fdfd9e5",
+       "131": "atk@131@if-this-works-well-get-fewer-for-next-year@never-stop-exploiting@1723326376-8747c8c5-bd57-4819-b981-6522af09a134",
+       "132": "atk@132@if-this-works-well-get-fewer-for-next-year@never-stop-exploiting@1723326683-66a7e568-d3f1-4271-a18e-d6c26922f958"
+     },
+     "next-years-organizers": {
+       "114": "atk@114@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723321438-a38675c1-7375-485e-92b4-bd2cce8b8c6a",
+       "121": "atk@121@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723323412-03cc6017-419e-4aea-9008-eb172e3a5f3e",
+       "122": "atk@122@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723323623-5b4b5e04-d616-4c7c-a44e-ffd786be3c68",
+       "123": "atk@123@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723323991-02ffc641-28ed-4c00-b966-dce49fa84175",
+       "124": "atk@124@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723324247-89c65bca-9bb1-4b98-b811-86db1d4ceee0",
+       "125": "atk@125@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723324549-ceea418b-d478-44b6-8364-9fd5f0dd0a3a",
+       "126": "atk@126@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723324823-5a785800-add0-4a1a-96de-d863a503ed54",
+       "127": "atk@127@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723325144-2e63ca1e-0630-494f-92dd-207d077df54a",
+       "128": "atk@128@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723325473-13dfae27-6934-4cba-b728-6b6f802d1257",
+       "129": "atk@129@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723325732-0cec452a-80dd-4454-95cf-8b16639bd40c",
+       "130": "atk@130@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723326050-7da7b175-a016-45bd-90b4-dad46ae8a0fa",
+       "131": "atk@131@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723326320-59299484-c382-4069-859a-936bb205255c",
+       "132": "atk@132@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723326748-c6c840a1-a5c7-4972-bdfd-2eda57e2a853",
+       "133": "atk@133@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723327044-6a154600-025f-4beb-8294-f9a784c8b138",
+       "134": "atk@134@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723327258-9a6b37ab-b042-4c54-a88b-ca751eac36c9",
+       "143": "atk@143@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723329971-50d1e8df-089c-47a0-8c8d-95f974950e08",
+       "144": "atk@144@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723330278-eeb66cca-ab24-45b6-8bb7-903f43342dd3",
+       "146": "atk@146@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723330904-fdd4b5b4-40b0-4a85-830a-3c9b6dbf8c85",
+       "147": "atk@147@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723331159-4851af3e-df3d-4e00-8871-27a47773b649",
+       "148": "atk@148@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723331459-afd86d2a-5d9c-4fe4-af1d-d8a8c477ae9f",
+       "149": "atk@149@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723331759-265cceae-5299-4ee6-ac91-c3ad0152b8b3",
+       "150": "atk@150@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723332059-d9bb3beb-f376-490e-94d8-a0eb047ee509",
+       "151": "atk@151@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723332359-f75de894-21d4-4e36-abe4-3bee6b1f2a74",
+       "152": "atk@152@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723332659-7b4b2124-3b5e-4337-bea8-de85daf7f1da",
+       "153": "atk@153@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723332959-eeeddb3a-3fc0-4e5e-ae94-2654617a6e5c",
+       "154": "atk@154@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723333259-3628c4b9-8689-4206-87f9-878cafb1ff05",
+       "156": "atk@156@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723333884-b82600c9-d287-4a25-afc7-97afbbf04641",
+       "157": "atk@157@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723334184-0d577127-eb1c-4a18-82c2-9ff9490b3c15",
+       "158": "atk@158@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723334484-65e526d8-6204-4790-b5bd-19ac383c4029",
+       "159": "atk@159@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723334784-d7fb3ca9-da3b-4465-8833-2a50499eb1f2",
+       "160": "atk@160@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723335084-ad42650b-c028-49c5-bc37-0889418562cc",
+       "161": "atk@161@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723335384-034d4964-c0be-47e5-b758-29e143e5f260",
+       "162": "atk@162@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723335684-d862ba7c-86e2-4718-a26d-cfb4834037f0",
+       "163": "atk@163@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723335984-1c4e456b-bc6d-4c59-9834-c4c44b2a290b",
+       "164": "atk@164@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723336264-2b827140-e5ff-4a87-a9f9-121a9696b585",
+       "165": "atk@165@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723336561-0d487608-9968-41a9-99a7-6f141960e8f9",
+       "166": "atk@166@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723336861-bf208b20-26e1-45e3-84ec-4f378ece312a",
+       "167": "atk@167@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723337177-5b5e123a-c2dc-496e-bd58-67bc5723f476",
+       "168": "atk@168@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723337522-6376e79f-f6fb-4b9d-ba1a-a8df17c4d867",
+       "169": "atk@169@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723337831-2bafad8b-9370-49f2-a61e-aad399642a36",
+       "170": "atk@170@if-this-works-well-get-fewer-for-next-year@next-years-organizers@1723395691-b41d37dd-0e2a-45ae-b52e-ca74455cbb73"
+     }
+   },
+   "score": 95
+ }

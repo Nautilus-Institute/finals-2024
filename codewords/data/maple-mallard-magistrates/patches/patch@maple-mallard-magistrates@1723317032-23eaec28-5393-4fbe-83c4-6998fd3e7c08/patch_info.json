@@ -1,0 +1,22 @@
+{
+   "id": "patch@maple-mallard-magistrates@1723317032-23eaec28-5393-4fbe-83c4-6998fd3e7c08",
+   "pending": false,
+   "generate_c_blob": "maple-mallard-magistrates/blob-maple-mallard-magistrates-1723317032-d392231f-9203-4deb-8349-8c2a3c4fcae1-bec4655a-eeca-4c7b-a5f5-339e6870a37a-125/generate.c",
+   "generate_wasm_blob": "maple-mallard-magistrates/blob-maple-mallard-magistrates-1723317032-dd05f28a-cb5f-4500-84df-51883a2d8480-d0ec4c8c-0367-4d60-890b-48943c2e49f2-503/generate.wasm",
+   "verify_c_blob": "maple-mallard-magistrates/blob-maple-mallard-magistrates-1723317032-a0c45ea5-a7fc-4fb4-9fb6-55244bf5a401-cad64568-0793-4e8e-ac6f-9ec53efbbc93-185/verify.c",
+   "verify_wasm_blob": "maple-mallard-magistrates/blob-maple-mallard-magistrates-1723317032-831e3715-515e-4862-8fad-e6ca626b2f7f-d88c305c-154d-4acb-94b2-f54888409345-504/verify.wasm",
+   "generate_c_sha256": "9f9e2053095f0b43fde64447263cfa35eb6044aaf93f9483e08bac0349d1aa2b",
+   "verify_c_sha256": "5de05128ebdc3cc4a34b124bc8590b133e0ce98e90df76fd0e1c32209799afb5",
+   "generate_wasm_sha256": "7dc9c4f1a38daf1228fc2261caffb15f777f398346fc34e524c48d25bb82fcb4",
+   "verify_wasm_sha256": "074905f28df2442020ba1deeef95806deb6c55b578dbabe8150a99afb5970825",
+   "queue_time": "",
+   "compile_time": "",
+   "compile_id": "",
+   "team_id": "maple-mallard-magistrates",
+   "start_round": 0,
+   "end_round": 108,
+   "base_patch": true,
+   "stats": null,
+   "status": "Deployed",
+   "compile_result": null
+ }

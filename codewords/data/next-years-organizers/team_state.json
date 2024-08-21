@@ -1,0 +1,126 @@
+{
+   "id": "next-years-organizers",
+   "name": "next-years-organizers",
+   "current_patch_id": "patch@next-years-organizers@1723395767-b5c4f3c0-65f7-47a6-8a3b-11e7d632f491",
+   "current_patch": {
+     "id": "patch@next-years-organizers@1723395767-b5c4f3c0-65f7-47a6-8a3b-11e7d632f491",
+     "pending": false,
+     "generate_c_blob": "next-years-organizers/blob-next-years-organizers-1723395763-b69ee5f2-ba17-4be8-bc74-534b78c58353-b1f57a4d-dd41-4b8d-a03c-d84caeba07f3-95/generate.c",
+     "generate_wasm_blob": "next-years-organizers/blob-next-years-organizers-1723395763-becaea95-b829-4399-9486-11cbdd01754e-ce733011-a7eb-426c-bab9-4d86cad4ef14-0/generate.wasm",
+     "verify_c_blob": "next-years-organizers/blob-next-years-organizers-1723395763-81e1c143-9d62-47a4-a72d-8a206d378b5a-b141f586-6a07-4333-b838-08896fb48390-953/verify.c",
+     "verify_wasm_blob": "next-years-organizers/blob-next-years-organizers-1723395763-7468740b-c2ea-4d55-be41-3a028e3b1936-e8a1b338-b836-4b5a-96b0-c81c9d2a507c-0/verify.wasm",
+     "generate_c_sha256": "686dfb759c6e217c55d390b73b4a0d26db2f0101877b7b90a91a67a808e32645",
+     "verify_c_sha256": "2c62606206f795c1ce038292d1fca41bdc3c1758709f1b06890f0f47f857026d",
+     "generate_wasm_sha256": "686dfb759c6e217c55d390b73b4a0d26db2f0101877b7b90a91a67a808e32645",
+     "verify_wasm_sha256": "2c62606206f795c1ce038292d1fca41bdc3c1758709f1b06890f0f47f857026d",
+     "queue_time": "1723395763901",
+     "compile_time": "1723395767586",
+     "compile_id": "job@comp@next-years-organizers@1723395763-2325c50b-53a3-46ca-b70e-5ba30c5471b7-4b9ee514-e517-4e81-97fd-d0e09329fd94",
+     "team_id": "next-years-organizers",
+     "start_round": 171,
+     "end_round": null,
+     "base_patch": false,
+     "stats": null,
+     "status": "pending",
+     "compile_result": {
+       "compile-outcome": {
+         "generate.c": "Building `generate.c`:\n\nSuccessfully compiled `generate.c`\n",
+         "verify.c": "Building `verify.c`:\n\nSuccessfully compiled `verify.c`\n"
+       },
+       "compile-status": "success",
+       "test-outcome": {
+         "generate_run": {
+           "error": null,
+           "fuel_used": 2,
+           "input_round_num": 170,
+           "output": "2283373611022881757"
+         },
+         "passed": true,
+         "status": "success",
+         "verify_run": {
+           "error": null,
+           "fuel_used": 893,
+           "input_round_num": 170,
+           "output": "1"
+         }
+       },
+       "test-status": "success"
+     }
+   },
+   "deployed_patches": [
+     {
+       "Deploy_round": 0,
+       "Patch_id": "patch@next-years-organizers@1723317032-3f67699d-679a-4c7e-9327-693fe4414f57"
+     },
+     {
+       "Deploy_round": 115,
+       "Patch_id": "patch@next-years-organizers@1723321303-9cd70cd3-575e-4e15-8f21-7f31ddd4eba1"
+     },
+     {
+       "Deploy_round": 116,
+       "Patch_id": "patch@next-years-organizers@1723321785-35e856a6-83c3-4783-bb03-18596938fd53"
+     },
+     {
+       "Deploy_round": 135,
+       "Patch_id": "patch@next-years-organizers@1723327396-09e53061-917b-47a9-b2ed-b6351af1b50f"
+     },
+     {
+       "Deploy_round": 145,
+       "Patch_id": "patch@next-years-organizers@1723330208-0778453f-74c4-4a0a-8143-356f58675662"
+     },
+     {
+       "Deploy_round": 155,
+       "Patch_id": "patch@next-years-organizers@1723333295-90aff853-e9bd-4c05-98ec-9a6cef8b00e1"
+     },
+     {
+       "Deploy_round": 171,
+       "Patch_id": "patch@next-years-organizers@1723395767-b5c4f3c0-65f7-47a6-8a3b-11e7d632f491"
+     }
+   ],
+   "attacks": {
+     "cold-fusion": {
+       "128": "atk@128@next-years-organizers@cold-fusion@1723325424-dc7fa8bd-96c9-4705-93cd-855206c33b63"
+     },
+     "friendly-maltese-citizens": {
+       "119": "atk@119@next-years-organizers@friendly-maltese-citizens@1723322900-0fa8480c-c802-4fc6-a00f-0febba6cc1c6",
+       "120": "atk@120@next-years-organizers@friendly-maltese-citizens@1723323030-389553a5-c6cc-4260-8139-b155906dac89",
+       "121": "atk@121@next-years-organizers@friendly-maltese-citizens@1723323350-45562fb4-e4ff-4506-aae3-5a867d6485c7",
+       "125": "atk@125@next-years-organizers@friendly-maltese-citizens@1723324542-391f4fe1-d63f-4322-a6fd-249c249e6d9b",
+       "126": "atk@126@next-years-organizers@friendly-maltese-citizens@1723324833-66d0ca42-25e1-4b30-88ff-793f0f09d453",
+       "127": "atk@127@next-years-organizers@friendly-maltese-citizens@1723325165-c37f9573-dc49-4b57-97d2-448a828da01a",
+       "128": "atk@128@next-years-organizers@friendly-maltese-citizens@1723325425-0ed34531-2ed2-42d5-ab66-5c4002b840fe",
+       "131": "atk@131@next-years-organizers@friendly-maltese-citizens@1723326329-d1ecd865-dbe1-4336-91c0-6ee5c9992341"
+     },
+     "maple-mallard-magistrates": {
+       "117": "atk@117@next-years-organizers@maple-mallard-magistrates@1723322173-40cdbed2-f617-407b-8093-55ece392efa5",
+       "118": "atk@118@next-years-organizers@maple-mallard-magistrates@1723322423-bec77bc0-1e3b-4397-a4b6-293ba98235f7",
+       "119": "atk@119@next-years-organizers@maple-mallard-magistrates@1723322871-e8adc45f-1183-43bd-b2c7-4bf4db36df9e",
+       "120": "atk@120@next-years-organizers@maple-mallard-magistrates@1723323030-233ddc9e-0bff-4a64-bded-e43f09987476",
+       "121": "atk@121@next-years-organizers@maple-mallard-magistrates@1723323350-41b975b8-0581-4079-8011-ace86477ffb7",
+       "124": "atk@124@next-years-organizers@maple-mallard-magistrates@1723324360-971e291d-d68c-4f1d-9f4a-b9cbb22b350c",
+       "125": "atk@125@next-years-organizers@maple-mallard-magistrates@1723324542-ca0ed377-4626-431c-92b6-076601e1fbc0",
+       "126": "atk@126@next-years-organizers@maple-mallard-magistrates@1723324833-c1163f06-7a74-471d-ad8e-2eec7f54e815",
+       "127": "atk@127@next-years-organizers@maple-mallard-magistrates@1723325170-8480184a-d1b1-4325-b00d-b4d5089fe4c1",
+       "128": "atk@128@next-years-organizers@maple-mallard-magistrates@1723325425-1e517e31-73e5-432f-9953-8567a19f1f5f"
+     },
+     "never-stop-exploiting": {
+       "154": "atk@154@next-years-organizers@never-stop-exploiting@1723333336-16d56e1e-4763-421c-a0cb-83ba44e16088",
+       "155": "atk@155@next-years-organizers@never-stop-exploiting@1723333717-d9ed15a2-9fe7-4ce1-8ae9-9aa8d92c5a3c",
+       "156": "atk@156@next-years-organizers@never-stop-exploiting@1723333889-3339ed07-e43b-46dc-9c6c-da6e2011cd17",
+       "157": "atk@157@next-years-organizers@never-stop-exploiting@1723334173-e6f4a9e1-8255-403e-8582-dcec47be295d",
+       "158": "atk@158@next-years-organizers@never-stop-exploiting@1723334486-be7993b8-c299-4887-b2e2-0948946a2ff4",
+       "159": "atk@159@next-years-organizers@never-stop-exploiting@1723334713-645ac241-6b90-4ce8-995b-12dfafefabda",
+       "160": "atk@160@next-years-organizers@never-stop-exploiting@1723335016-70b2d202-45bb-43fc-b0b9-f1a3030679d4",
+       "161": "atk@161@next-years-organizers@never-stop-exploiting@1723335330-a918007c-d541-43c4-a68d-90ed13a64146",
+       "162": "atk@162@next-years-organizers@never-stop-exploiting@1723335623-dabdbbfe-5466-42ae-a903-eb635c58cc3a",
+       "163": "atk@163@next-years-organizers@never-stop-exploiting@1723335925-1dc6ef69-ec84-43f6-a667-7cf9e4bd0c0f",
+       "164": "atk@164@next-years-organizers@never-stop-exploiting@1723336213-9022f6b6-04bb-426a-baff-8f966055c0b1",
+       "165": "atk@165@next-years-organizers@never-stop-exploiting@1723336521-897fbf23-cd08-4705-abad-d79778ad8b49",
+       "166": "atk@166@next-years-organizers@never-stop-exploiting@1723336811-7827d566-748f-4423-8c54-65b7d54ded32",
+       "167": "atk@167@next-years-organizers@never-stop-exploiting@1723337145-fc0f99de-29a0-48d2-a3f8-f5a6a34f29fe",
+       "168": "atk@168@next-years-organizers@never-stop-exploiting@1723337427-aa28b78a-afba-4e35-8ed9-564b6260bcec",
+       "169": "atk@169@next-years-organizers@never-stop-exploiting@1723337725-12d4ace5-5f74-45c4-b8db-7c5a3eff9078"
+     }
+   },
+   "score": 35
+ }

@@ -1,0 +1,45 @@
+{
+   "id": "patch@if-this-works-well-get-fewer-for-next-year@1723328580-e9adb470-06b5-431d-984a-447ce7ec10ee",
+   "pending": false,
+   "generate_c_blob": "if-this-works-well-get-fewer-for-next-year/blob-if-this-works-well-get-fewer-for-next-year-1723328578-5bd53f52-24a1-4253-8878-c16c9b3d8558-f37f7584-0a77-4d65-a50f-80212443c968-6534/generate.c",
+   "generate_wasm_blob": "if-this-works-well-get-fewer-for-next-year/blob-if-this-works-well-get-fewer-for-next-year-1723328578-d85ef1fd-b5a2-4253-9f6c-a582c359acc7-50eb00b0-1db4-4d1e-9725-0e8cf2e3f0d0-0/generate.wasm",
+   "verify_c_blob": "if-this-works-well-get-fewer-for-next-year/blob-if-this-works-well-get-fewer-for-next-year-1723328578-9262957a-c035-441c-b95e-bde468c52473-4cc387f8-d83b-4c62-867a-eadc10b5eadc-8306/verify.c",
+   "verify_wasm_blob": "if-this-works-well-get-fewer-for-next-year/blob-if-this-works-well-get-fewer-for-next-year-1723328578-b7fa9021-7459-4003-97f6-ed8ae2defd2f-bc35f8f8-403d-414b-8ad5-9d979ab16adc-0/verify.wasm",
+   "generate_c_sha256": "c38e9ca21d77e75fb8a5e204ec4203ac9ee2d911ad7dac71a585a5496121fdf1",
+   "verify_c_sha256": "e08c72223f7aeb834b3b8e7c0197c861cef3831e2d56ecaefcef73b4a53e7cb5",
+   "generate_wasm_sha256": "c38e9ca21d77e75fb8a5e204ec4203ac9ee2d911ad7dac71a585a5496121fdf1",
+   "verify_wasm_sha256": "e08c72223f7aeb834b3b8e7c0197c861cef3831e2d56ecaefcef73b4a53e7cb5",
+   "queue_time": "1723328578452",
+   "compile_time": "1723328580946",
+   "compile_id": "job@comp@if-this-works-well-get-fewer-for-next-year@1723328578-0210a1d6-ff93-45d7-a153-f58bedf7094f-3fa18f60-4181-4a60-b835-f8a2532acbc9",
+   "team_id": "if-this-works-well-get-fewer-for-next-year",
+   "start_round": 139,
+   "end_round": 171,
+   "base_patch": false,
+   "stats": null,
+   "status": "pending",
+   "compile_result": {
+     "compile-outcome": {
+       "generate.c": "Building `generate.c`:\n\nSuccessfully compiled `generate.c`\n",
+       "verify.c": "Building `verify.c`:\n\nSuccessfully compiled `verify.c`\n"
+     },
+     "compile-status": "success",
+     "test-outcome": {
+       "generate_run": {
+         "error": null,
+         "fuel_used": 9,
+         "input_round_num": 145,
+         "output": "7260021028607801216"
+       },
+       "passed": true,
+       "status": "success",
+       "verify_run": {
+         "error": null,
+         "fuel_used": 322,
+         "input_round_num": 145,
+         "output": "1"
+       }
+     },
+     "test-status": "success"
+   }
+ }

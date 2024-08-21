@@ -1,0 +1,45 @@
+{
+   "id": "patch@hypeboy@1723403855-4464d968-c345-4241-802c-891d5510ff2e",
+   "pending": false,
+   "generate_c_blob": "hypeboy/blob-hypeboy-1723403850-71a719cb-6b98-4f2a-ba2d-79c5cd3320f2-d9b8ea97-61d2-4a50-beb8-d63c7d5bd72a-95/generate.c",
+   "generate_wasm_blob": "hypeboy/blob-hypeboy-1723403850-b096c68c-13c7-4635-972f-dcd8bb983eb6-815de4f9-1b95-45b6-9a84-cfbacc33fd22-0/generate.wasm",
+   "verify_c_blob": "hypeboy/blob-hypeboy-1723403850-6c5a49fd-d3d7-4ac3-85e8-bd3bfed23ce1-3b73666f-b01a-43ae-b5f3-7f817da4557f-3141/verify.c",
+   "verify_wasm_blob": "hypeboy/blob-hypeboy-1723403850-b4e81eda-dc1a-4595-9946-0554a7f7a8df-8c3fd2d0-3c23-43f1-a6c1-11a25f849394-0/verify.wasm",
+   "generate_c_sha256": "f9d37b4b3edb31a8cf2212055328b15c0d813384f62f06afdd3cb77ed2b7120e",
+   "verify_c_sha256": "d5d5143ae707f7231281c5d0bc1056cb668a51f84041ab71f73ef1d56b5d13f8",
+   "generate_wasm_sha256": "f9d37b4b3edb31a8cf2212055328b15c0d813384f62f06afdd3cb77ed2b7120e",
+   "verify_wasm_sha256": "d5d5143ae707f7231281c5d0bc1056cb668a51f84041ab71f73ef1d56b5d13f8",
+   "queue_time": "1723403850693",
+   "compile_time": "1723403855092",
+   "compile_id": "job@comp@hypeboy@1723403850-80a6002a-3ad7-4243-a6b3-0a8f663d81b8-6083fc5d-f6c7-4027-a24a-b01695eed193",
+   "team_id": "hypeboy",
+   "start_round": 198,
+   "end_round": 198,
+   "base_patch": false,
+   "stats": null,
+   "status": "pending",
+   "compile_result": {
+     "compile-outcome": {
+       "generate.c": "Building `generate.c`:\n\nSuccessfully compiled `generate.c`\n",
+       "verify.c": "Building `verify.c`:\n/blob/source/verify/verify.c:98:33: warning: integer literal is too large to be represented in a signed integer type, interpreting as unsigned [-Wimplicitly-unsigned-literal]\n    ((uint32_t*)k)[2] = token - 16141668505977546384;\n                                ^\n1 warning generated.\n\nSuccessfully compiled `verify.c`\n"
+     },
+     "compile-status": "success",
+     "test-outcome": {
+       "generate_run": {
+         "error": null,
+         "fuel_used": 2,
+         "input_round_num": 90,
+         "output": "5872443317481264388"
+       },
+       "passed": true,
+       "status": "success",
+       "verify_run": {
+         "error": null,
+         "fuel_used": 903,
+         "input_round_num": 90,
+         "output": "1"
+       }
+     },
+     "test-status": "success"
+   }
+ }

@@ -1,0 +1,45 @@
+{
+   "id": "patch@mhackeroni@1723327826-360b9c2c-a73f-4ebc-9ba6-68e4b4ed2460",
+   "pending": false,
+   "generate_c_blob": "mhackeroni/blob-mhackeroni-1723327823-e0c25e76-5800-49cc-8452-5fc154235a02-14c2de14-a2b0-41ba-ad8e-65a186eac23f-96/generate.c",
+   "generate_wasm_blob": "mhackeroni/blob-mhackeroni-1723327823-e955ff68-ba67-4b1d-966d-7e731a69c37e-19f3d601-964c-4ed9-b14d-5656970370bc-0/generate.wasm",
+   "verify_c_blob": "mhackeroni/blob-mhackeroni-1723327823-e57a448b-2a63-4183-b74e-b1e17bd65498-6f9468c7-88fb-454a-8c3f-9ae16ffe38db-3114/verify.c",
+   "verify_wasm_blob": "mhackeroni/blob-mhackeroni-1723327823-59787b23-5e73-41e7-a20e-4db211c965e9-e0654e89-dcaf-41ce-8041-022f5052d127-0/verify.wasm",
+   "generate_c_sha256": "e9de57488a2b2083a04cf4c9252cb35884c0489b281b47d4a935e01edc950c8f",
+   "verify_c_sha256": "1f93eb5551b309acc0967d0ad656dec22250e098a29a1031f439eb1d05d4589b",
+   "generate_wasm_sha256": "e9de57488a2b2083a04cf4c9252cb35884c0489b281b47d4a935e01edc950c8f",
+   "verify_wasm_sha256": "1f93eb5551b309acc0967d0ad656dec22250e098a29a1031f439eb1d05d4589b",
+   "queue_time": "1723327823658",
+   "compile_time": "1723327826924",
+   "compile_id": "job@comp@mhackeroni@1723327823-b220297c-a3ae-42a3-92a4-6815ce23ffa0-e5d8365a-3b39-4b53-af33-edc4da4018a7",
+   "team_id": "mhackeroni",
+   "start_round": 137,
+   "end_round": 137,
+   "base_patch": false,
+   "stats": null,
+   "status": "pending",
+   "compile_result": {
+     "compile-outcome": {
+       "generate.c": "Building `generate.c`:\n\nSuccessfully compiled `generate.c`\n",
+       "verify.c": "Building `verify.c`:\n\nSuccessfully compiled `verify.c`\n"
+     },
+     "compile-status": "success",
+     "test-outcome": {
+       "generate_run": {
+         "error": null,
+         "fuel_used": 2,
+         "input_round_num": 246,
+         "output": "3536842594680571822"
+       },
+       "passed": true,
+       "status": "success",
+       "verify_run": {
+         "error": null,
+         "fuel_used": 865,
+         "input_round_num": 246,
+         "output": "1"
+       }
+     },
+     "test-status": "success"
+   }
+ }

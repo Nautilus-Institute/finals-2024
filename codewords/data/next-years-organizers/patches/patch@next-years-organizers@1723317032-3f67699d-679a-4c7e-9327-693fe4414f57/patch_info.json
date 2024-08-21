@@ -1,0 +1,22 @@
+{
+   "id": "patch@next-years-organizers@1723317032-3f67699d-679a-4c7e-9327-693fe4414f57",
+   "pending": false,
+   "generate_c_blob": "next-years-organizers/blob-next-years-organizers-1723317032-a0dd8dce-a28c-4144-8d4f-a8b0cf69fc8c-9b04fa5d-f53c-4629-8e77-cc1aba352cfb-125/generate.c",
+   "generate_wasm_blob": "next-years-organizers/blob-next-years-organizers-1723317032-aeed70ec-2330-4a9c-9097-ca6b62837353-b8c54ce3-612e-49f2-8d70-fd0bff585a4e-503/generate.wasm",
+   "verify_c_blob": "next-years-organizers/blob-next-years-organizers-1723317032-870ea9e7-429b-473f-96d8-2af7966d21aa-a571b732-74d7-45e4-9858-486ab8fbb764-185/verify.c",
+   "verify_wasm_blob": "next-years-organizers/blob-next-years-organizers-1723317032-aac0bed9-1a1b-43af-a61b-ab66e2b24c9e-b50f8e74-398f-4b32-8381-7f1f4baf18eb-504/verify.wasm",
+   "generate_c_sha256": "9f9e2053095f0b43fde64447263cfa35eb6044aaf93f9483e08bac0349d1aa2b",
+   "verify_c_sha256": "5de05128ebdc3cc4a34b124bc8590b133e0ce98e90df76fd0e1c32209799afb5",
+   "generate_wasm_sha256": "7dc9c4f1a38daf1228fc2261caffb15f777f398346fc34e524c48d25bb82fcb4",
+   "verify_wasm_sha256": "074905f28df2442020ba1deeef95806deb6c55b578dbabe8150a99afb5970825",
+   "queue_time": "",
+   "compile_time": "",
+   "compile_id": "",
+   "team_id": "next-years-organizers",
+   "start_round": 0,
+   "end_round": 114,
+   "base_patch": true,
+   "stats": null,
+   "status": "Deployed",
+   "compile_result": null
+ }

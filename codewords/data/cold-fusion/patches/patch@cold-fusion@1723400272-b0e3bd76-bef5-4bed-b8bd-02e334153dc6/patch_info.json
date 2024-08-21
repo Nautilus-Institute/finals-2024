@@ -1,0 +1,45 @@
+{
+   "id": "patch@cold-fusion@1723400272-b0e3bd76-bef5-4bed-b8bd-02e334153dc6",
+   "pending": false,
+   "generate_c_blob": "cold-fusion/blob-cold-fusion-1723400267-d06c6411-f036-4759-bd3a-ef3f4e2125fd-e08ad468-0bda-403d-a4fd-3933d211e941-95/generate.c",
+   "generate_wasm_blob": "cold-fusion/blob-cold-fusion-1723400267-b7055779-f8cc-4091-954a-0283d357730d-5c36eb2c-3e3d-4832-ba07-18bf881ef473-0/generate.wasm",
+   "verify_c_blob": "cold-fusion/blob-cold-fusion-1723400267-6000e68f-381e-4ec8-b31a-868037518ef8-803f8308-a299-427a-9104-951c791a2cb7-9035/verify.c",
+   "verify_wasm_blob": "cold-fusion/blob-cold-fusion-1723400267-cac51eb8-a56c-4d72-b0a0-910923385de3-e089f1d3-088a-4410-b85b-a8b2b507eacb-0/verify.wasm",
+   "generate_c_sha256": "434daad01f272c71ee09e082e3fe271637969b116bde8fe6e4e3074389ea79e9",
+   "verify_c_sha256": "870c4af25c02dc4a88f444dc39a85f6959fa3f3a65c5bd893384857c516b7b65",
+   "generate_wasm_sha256": "434daad01f272c71ee09e082e3fe271637969b116bde8fe6e4e3074389ea79e9",
+   "verify_wasm_sha256": "870c4af25c02dc4a88f444dc39a85f6959fa3f3a65c5bd893384857c516b7b65",
+   "queue_time": "1723400267945",
+   "compile_time": "1723400272490",
+   "compile_id": "job@comp@cold-fusion@1723400267-a5876620-81ed-47bf-92bc-fffff4684d2f-e8a12ee6-c21a-4cc6-9a5d-b6d1dc0e62b2",
+   "team_id": "cold-fusion",
+   "start_round": 186,
+   "end_round": 186,
+   "base_patch": false,
+   "stats": null,
+   "status": "pending",
+   "compile_result": {
+     "compile-outcome": {
+       "generate.c": "Building `generate.c`:\n\nSuccessfully compiled `generate.c`\n",
+       "verify.c": "Building `verify.c`:\n\nSuccessfully compiled `verify.c`\n"
+     },
+     "compile-status": "success",
+     "test-outcome": {
+       "generate_run": {
+         "error": null,
+         "fuel_used": 2,
+         "input_round_num": 16,
+         "output": "5301924338002016667"
+       },
+       "passed": true,
+       "status": "success",
+       "verify_run": {
+         "error": null,
+         "fuel_used": 522,
+         "input_round_num": 16,
+         "output": "1"
+       }
+     },
+     "test-status": "success"
+   }
+ }

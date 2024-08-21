@@ -1,0 +1,45 @@
+{
+   "id": "patch@next-years-organizers@1723330208-0778453f-74c4-4a0a-8143-356f58675662",
+   "pending": false,
+   "generate_c_blob": "next-years-organizers/blob-next-years-organizers-1723330205-c0b048c8-9e03-4e4c-a9b4-6db40df28b22-e2b19555-e4a1-4731-ab21-aae7c6f301b8-643/generate.c",
+   "generate_wasm_blob": "next-years-organizers/blob-next-years-organizers-1723330205-803c8154-6091-4ed1-aea9-1df891de179d-9ca2bd0d-6c3a-4fba-8b6a-dcdc3bb76575-0/generate.wasm",
+   "verify_c_blob": "next-years-organizers/blob-next-years-organizers-1723330205-f94fc1ae-c9dc-4eca-8c3c-04516dd85942-23175a55-e7f1-4ebc-aa4f-1e237a0282e9-595/verify.c",
+   "verify_wasm_blob": "next-years-organizers/blob-next-years-organizers-1723330205-a9d9b0a4-a151-4ae5-ba43-2093deeb12fa-c1c298cb-79c8-4321-a3b9-a0a93f698e0b-0/verify.wasm",
+   "generate_c_sha256": "badca127712e73bac285fb583bdbdf1b9c8110029d55b60d03345491e74a4895",
+   "verify_c_sha256": "a58a3e148cd7c0bb0df4051410bd0b6cdffe965cbf7853187f1c84acb09739e3",
+   "generate_wasm_sha256": "badca127712e73bac285fb583bdbdf1b9c8110029d55b60d03345491e74a4895",
+   "verify_wasm_sha256": "a58a3e148cd7c0bb0df4051410bd0b6cdffe965cbf7853187f1c84acb09739e3",
+   "queue_time": "1723330205876",
+   "compile_time": "1723330208490",
+   "compile_id": "job@comp@next-years-organizers@1723330205-85cf3e88-a8b0-4b4c-abf5-3eefba03c1cf-0cded453-728e-4b63-8706-55cfdeafb24d",
+   "team_id": "next-years-organizers",
+   "start_round": 145,
+   "end_round": 154,
+   "base_patch": false,
+   "stats": null,
+   "status": "pending",
+   "compile_result": {
+     "compile-outcome": {
+       "generate.c": "Building `generate.c`:\n\nSuccessfully compiled `generate.c`\n",
+       "verify.c": "Building `verify.c`:\n\nSuccessfully compiled `verify.c`\n"
+     },
+     "compile-status": "success",
+     "test-outcome": {
+       "generate_run": {
+         "error": null,
+         "fuel_used": 827,
+         "input_round_num": 176,
+         "output": "102321353"
+       },
+       "passed": true,
+       "status": "success",
+       "verify_run": {
+         "error": null,
+         "fuel_used": 26,
+         "input_round_num": 176,
+         "output": "1"
+       }
+     },
+     "test-status": "success"
+   }
+ }

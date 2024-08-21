@@ -1,0 +1,22 @@
+{
+   "id": "patch@if-this-works-well-get-fewer-for-next-year@1723317032-68f46370-eb23-4d14-b998-8396fef6d378",
+   "pending": false,
+   "generate_c_blob": "if-this-works-well-get-fewer-for-next-year/blob-if-this-works-well-get-fewer-for-next-year-1723317032-4bad4b53-e5c8-435a-b1e7-f788959be47b-ec962b42-5d18-425d-b63c-30533e70788b-125/generate.c",
+   "generate_wasm_blob": "if-this-works-well-get-fewer-for-next-year/blob-if-this-works-well-get-fewer-for-next-year-1723317032-2db18290-6966-4523-8620-3a0b27713b77-c60a304f-38b8-4a1c-9362-8bf91a4fb369-503/generate.wasm",
+   "verify_c_blob": "if-this-works-well-get-fewer-for-next-year/blob-if-this-works-well-get-fewer-for-next-year-1723317032-51ffc95e-8f88-44f2-85e5-0ce761d31c9e-364581ff-99f0-46ff-9e4b-43e5f7e42b29-185/verify.c",
+   "verify_wasm_blob": "if-this-works-well-get-fewer-for-next-year/blob-if-this-works-well-get-fewer-for-next-year-1723317032-23533133-7b8d-435b-9870-1606209d4aef-48e99edd-8226-4f7c-aca5-3e6c29e9b729-504/verify.wasm",
+   "generate_c_sha256": "9f9e2053095f0b43fde64447263cfa35eb6044aaf93f9483e08bac0349d1aa2b",
+   "verify_c_sha256": "5de05128ebdc3cc4a34b124bc8590b133e0ce98e90df76fd0e1c32209799afb5",
+   "generate_wasm_sha256": "7dc9c4f1a38daf1228fc2261caffb15f777f398346fc34e524c48d25bb82fcb4",
+   "verify_wasm_sha256": "074905f28df2442020ba1deeef95806deb6c55b578dbabe8150a99afb5970825",
+   "queue_time": "",
+   "compile_time": "",
+   "compile_id": "",
+   "team_id": "if-this-works-well-get-fewer-for-next-year",
+   "start_round": 0,
+   "end_round": 109,
+   "base_patch": true,
+   "stats": null,
+   "status": "Deployed",
+   "compile_result": null
+ }

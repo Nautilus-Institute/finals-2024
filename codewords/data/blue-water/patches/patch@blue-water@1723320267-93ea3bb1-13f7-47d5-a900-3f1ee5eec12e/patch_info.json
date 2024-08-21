@@ -1,0 +1,45 @@
+{
+   "id": "patch@blue-water@1723320267-93ea3bb1-13f7-47d5-a900-3f1ee5eec12e",
+   "pending": false,
+   "generate_c_blob": "blue-water/blob-blue-water-1723320264-03760a55-de8b-4640-a837-8af48af46516-85d19a78-3648-49e4-ba73-1703dc061a72-129/generate.c",
+   "generate_wasm_blob": "blue-water/blob-blue-water-1723320264-0fac8270-c7a5-407d-be12-11e700758506-f86940ba-8a88-4186-b64a-bb5500f3ac5c-0/generate.wasm",
+   "verify_c_blob": "blue-water/blob-blue-water-1723320264-d2d04601-a3b4-4dce-81f3-e7534f3d8472-8cd16e62-9ad4-47ed-8c2e-2112a1e82296-188/verify.c",
+   "verify_wasm_blob": "blue-water/blob-blue-water-1723320264-67b68e3e-629e-4562-a95a-d0f619049c9c-5b150309-c2d8-46a8-b11b-08917577b5d6-0/verify.wasm",
+   "generate_c_sha256": "e9efcc8bd0ca6c47210f7e9d6883d686a7edff2997581cfdc224776aec55b13a",
+   "verify_c_sha256": "df870096234e2e78b73e230ae518aaf6abc9b03ca20d6913e1890f647f439a9c",
+   "generate_wasm_sha256": "e9efcc8bd0ca6c47210f7e9d6883d686a7edff2997581cfdc224776aec55b13a",
+   "verify_wasm_sha256": "df870096234e2e78b73e230ae518aaf6abc9b03ca20d6913e1890f647f439a9c",
+   "queue_time": "1723320264475",
+   "compile_time": "1723320267013",
+   "compile_id": "job@comp@blue-water@1723320264-65c6ee38-f9b8-4521-b15d-9c6d1139fa0d-7a94baf7-1419-494a-8845-f3d752252b72",
+   "team_id": "blue-water",
+   "start_round": 111,
+   "end_round": 123,
+   "base_patch": false,
+   "stats": null,
+   "status": "pending",
+   "compile_result": {
+     "compile-outcome": {
+       "generate.c": "Building `generate.c`:\n\nSuccessfully compiled `generate.c`\n",
+       "verify.c": "Building `verify.c`:\n\nSuccessfully compiled `verify.c`\n"
+     },
+     "compile-status": "success",
+     "test-outcome": {
+       "generate_run": {
+         "error": null,
+         "fuel_used": 7,
+         "input_round_num": 37,
+         "output": "4702394921427299442"
+       },
+       "passed": true,
+       "status": "success",
+       "verify_run": {
+         "error": null,
+         "fuel_used": 10,
+         "input_round_num": 37,
+         "output": "1"
+       }
+     },
+     "test-status": "success"
+   }
+ }

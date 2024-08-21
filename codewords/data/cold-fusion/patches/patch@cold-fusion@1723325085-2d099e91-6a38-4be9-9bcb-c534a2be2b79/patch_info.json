@@ -1,0 +1,45 @@
+{
+   "id": "patch@cold-fusion@1723325085-2d099e91-6a38-4be9-9bcb-c534a2be2b79",
+   "pending": false,
+   "generate_c_blob": "cold-fusion/blob-cold-fusion-1723325083-57d92f53-8d57-4188-9681-17ea5cb03ed0-dc9a5869-c994-41a6-ad25-dd36f962a3bc-92/generate.c",
+   "generate_wasm_blob": "cold-fusion/blob-cold-fusion-1723325083-f4d3c0fd-1fad-45b7-8aef-0b1a010b32f0-a24bb5ea-9adc-4c68-8eb7-42720b3d07f3-0/generate.wasm",
+   "verify_c_blob": "cold-fusion/blob-cold-fusion-1723325083-747f8e9b-f172-4b1a-a2b3-e5a6cedff21d-bcf185b9-8473-46e8-ad48-b933c54bcb31-119/verify.c",
+   "verify_wasm_blob": "cold-fusion/blob-cold-fusion-1723325083-1b233ff1-5cc7-485c-8e5d-154f2d208f7d-8dfa7339-2b87-4caf-b1e9-d7111d20046c-0/verify.wasm",
+   "generate_c_sha256": "5a6bffc0ffa4757f4f82b2025cc695d6a03f4c1d6d9f8b3e1cd60a129105178f",
+   "verify_c_sha256": "694c7e587bdc03fbec1971f66e898f9fab0473b42f12e60d2a9fd7176175eecd",
+   "generate_wasm_sha256": "5a6bffc0ffa4757f4f82b2025cc695d6a03f4c1d6d9f8b3e1cd60a129105178f",
+   "verify_wasm_sha256": "694c7e587bdc03fbec1971f66e898f9fab0473b42f12e60d2a9fd7176175eecd",
+   "queue_time": "1723325083322",
+   "compile_time": "1723325085673",
+   "compile_id": "job@comp@cold-fusion@1723325083-f9013c55-0dbd-4f85-90f0-56e628851f59-f717adb3-52b2-4f8e-a1c6-7d75465f39fc",
+   "team_id": "cold-fusion",
+   "start_round": 127,
+   "end_round": 127,
+   "base_patch": false,
+   "stats": null,
+   "status": "pending",
+   "compile_result": {
+     "compile-outcome": {
+       "generate.c": "Building `generate.c`:\n\nSuccessfully compiled `generate.c`\n",
+       "verify.c": "Building `verify.c`:\n\nSuccessfully compiled `verify.c`\n"
+     },
+     "compile-status": "success",
+     "test-outcome": {
+       "generate_run": {
+         "error": null,
+         "fuel_used": 5,
+         "input_round_num": 63,
+         "output": "567000"
+       },
+       "passed": true,
+       "status": "success",
+       "verify_run": {
+         "error": null,
+         "fuel_used": 8,
+         "input_round_num": 63,
+         "output": "1"
+       }
+     },
+     "test-status": "success"
+   }
+ }

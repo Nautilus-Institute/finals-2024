@@ -1,0 +1,45 @@
+{
+   "id": "patch@maple-mallard-magistrates@1723322341-df4dbdcd-9587-45dc-8f39-edb45e44422a",
+   "pending": false,
+   "generate_c_blob": "maple-mallard-magistrates/blob-maple-mallard-magistrates-1723322338-3c1ae05e-f9a2-4be8-917b-d47ea6740001-6e676ea2-40e7-46ab-8c53-4bab43c9c4e3-279/generate.c",
+   "generate_wasm_blob": "maple-mallard-magistrates/blob-maple-mallard-magistrates-1723322338-89af7cc7-521a-4e36-aceb-b4ec545f90f5-2cfbf7c4-3b2c-40fd-8ee9-bbc97cc107dc-0/generate.wasm",
+   "verify_c_blob": "maple-mallard-magistrates/blob-maple-mallard-magistrates-1723322338-c4974c2f-0389-449b-9575-35698c31ce95-34d7d6e8-d7b4-470c-aa6d-0681aada73d9-326/verify.c",
+   "verify_wasm_blob": "maple-mallard-magistrates/blob-maple-mallard-magistrates-1723322338-954f94df-5ea5-4df1-ac69-1e81e20bd9dd-cb60a49b-1873-4132-8d3b-8389247314dd-0/verify.wasm",
+   "generate_c_sha256": "84549940c957091c55582f96765b366edbfc57dab4313fe0a1f5afad709d7a06",
+   "verify_c_sha256": "caec2af01686676418f4606bc40c6d5d5498bf10e824f4fb105f3aab6437d551",
+   "generate_wasm_sha256": "84549940c957091c55582f96765b366edbfc57dab4313fe0a1f5afad709d7a06",
+   "verify_wasm_sha256": "caec2af01686676418f4606bc40c6d5d5498bf10e824f4fb105f3aab6437d551",
+   "queue_time": "1723322338323",
+   "compile_time": "1723322341174",
+   "compile_id": "job@comp@maple-mallard-magistrates@1723322338-99b4f717-d5ce-4bf5-a874-028ba054317e-dee663a8-fb0f-4ac7-a96e-c2e2ae8c1dd8",
+   "team_id": "maple-mallard-magistrates",
+   "start_round": 118,
+   "end_round": 118,
+   "base_patch": false,
+   "stats": null,
+   "status": "pending",
+   "compile_result": {
+     "compile-outcome": {
+       "generate.c": "Building `generate.c`:\n/blob/source/generate/generate.c:3:55: warning: integer literal is too large to be represented in a signed integer type, interpreting as unsigned [-Wimplicitly-unsigned-literal]\n    uint64_t x = ((round_num + 3810962295908534551) ^ 9366086091784492872) + 1363024386151976883;\n                                                      ^\n1 warning generated.\n\nSuccessfully compiled `generate.c`\n",
+       "verify.c": "Building `verify.c`:\n/blob/source/verify/verify.c:3:54: warning: integer literal is too large to be represented in a signed integer type, interpreting as unsigned [-Wimplicitly-unsigned-literal]\n   uint64_t x = ((round_num + 3810962295908534551) ^ 9366086091784492872) + 1363024386151976883;\n                                                     ^\n1 warning generated.\n\nSuccessfully compiled `verify.c`\n"
+     },
+     "compile-status": "success",
+     "test-outcome": {
+       "generate_run": {
+         "error": null,
+         "fuel_used": 39,
+         "input_round_num": 56,
+         "output": "4357686917432521239"
+       },
+       "passed": true,
+       "status": "success",
+       "verify_run": {
+         "error": null,
+         "fuel_used": 43,
+         "input_round_num": 56,
+         "output": "1"
+       }
+     },
+     "test-status": "success"
+   }
+ }

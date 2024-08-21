@@ -1,0 +1,22 @@
+{
+   "id": "patch@superdicecode@1723317032-d246b652-feb1-449c-9baa-eea5a4d186ea",
+   "pending": false,
+   "generate_c_blob": "superdicecode/blob-superdicecode-1723317032-8d422383-e3e6-4b0a-bb1a-99d2f05033b6-56487180-9eb8-40e4-9584-d6f34434bfa3-125/generate.c",
+   "generate_wasm_blob": "superdicecode/blob-superdicecode-1723317032-f61454bb-035d-4745-9f5f-684f53e59ccd-62cb9457-4870-4612-ac53-d4765d72d4c6-503/generate.wasm",
+   "verify_c_blob": "superdicecode/blob-superdicecode-1723317032-760a588d-d9aa-4f63-b820-006f1a2c9947-af93c5ef-f7a4-45d9-ac6c-8b0d472791c5-185/verify.c",
+   "verify_wasm_blob": "superdicecode/blob-superdicecode-1723317032-b3ab14e2-fd59-4a48-bf24-b7c8342457be-177e2e9f-b233-40dc-b877-de14c43eb5c7-504/verify.wasm",
+   "generate_c_sha256": "9f9e2053095f0b43fde64447263cfa35eb6044aaf93f9483e08bac0349d1aa2b",
+   "verify_c_sha256": "5de05128ebdc3cc4a34b124bc8590b133e0ce98e90df76fd0e1c32209799afb5",
+   "generate_wasm_sha256": "7dc9c4f1a38daf1228fc2261caffb15f777f398346fc34e524c48d25bb82fcb4",
+   "verify_wasm_sha256": "074905f28df2442020ba1deeef95806deb6c55b578dbabe8150a99afb5970825",
+   "queue_time": "",
+   "compile_time": "",
+   "compile_id": "",
+   "team_id": "superdicecode",
+   "start_round": 0,
+   "end_round": 111,
+   "base_patch": true,
+   "stats": null,
+   "status": "Deployed",
+   "compile_result": null
+ }
